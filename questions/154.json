@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following rules must every correct XML document adhere to? (Choose 2)",
+  "choices": {
+    "a": "It has to be well-formed.",
+    "b": "It has to be valid.",
+    "c": "It has to be associated to a DTD.",
+    "d": "It may only contain UTF-8 encoded characters."
+  },
+  "answers": ["a", "b"]
+}

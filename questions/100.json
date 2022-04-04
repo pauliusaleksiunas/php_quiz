@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following functions will allow identifying unique values inside an array?",
+  "choices": {
+    "a": "array_unique_values",
+    "b": "array_distinct",
+    "c": "array_count_values",
+    "d": "array_intersect",
+    "e": "array_values"
+  },
+  "answers": ["c"]
+}

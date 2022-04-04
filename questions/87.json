@@ -1,0 +1,10 @@
+{
+  "title": "What is cached by an opcode cache?",
+  "choices": {
+    "a": "Compiled PHP code",
+    "b": "Native PHP extensions",
+    "c": "Data sent to the client",
+    "d": "Data received from the database"
+  },
+  "answers": ["a"]
+}

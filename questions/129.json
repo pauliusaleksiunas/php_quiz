@@ -1,0 +1,10 @@
+{
+  "title": "Type hinting in PHP allows the identification of the following variable types: (Choose 2)",
+  "choices": {
+    "a": "string",
+    "b": "array",
+    "c": "Any class or interface type",
+    "d": "All of the above"
+  },
+  "answers": ["d"]
+}

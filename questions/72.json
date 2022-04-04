@@ -1,0 +1,10 @@
+{
+  "title": "How can you determine whether a PHP script has already sent cookies to the client?",
+  "choices": {
+    "a": "Use $_COOKIE",
+    "b": "Use the getcookie() function",
+    "c": "Use the headers_sent() function",
+    "d": "Use JavaScript to send a second HTTP request"
+  },
+  "answers": ["c"]
+}

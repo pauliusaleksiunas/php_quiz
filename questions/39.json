@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following is used to find all PHP files under a certain directory?",
+  "choices": {
+    "a": "PHPIterator",
+    "b": "RecursiveTreeIterator",
+    "c": "RecursiveDirectoryIterator",
+    "d": "SplTempFileObject"
+  },
+  "answers": ["c"]
+}

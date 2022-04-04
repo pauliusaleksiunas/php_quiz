@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following is NOT a valid function declaration?",
+  "choices": {
+    "a": "function x ($x1 = array())",
+    "b": "function x (A $x1)",
+    "c": "function x (A $x1 = null)",
+    "d": "function x ($x1 = $x2)"
+  },
+  "answers": ["d"]
+}

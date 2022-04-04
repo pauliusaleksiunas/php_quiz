@@ -1,0 +1,10 @@
+{
+  "title": "The following form is loaded in a recent browser and submitted, with the second select option selected:\n\n<form method=\"post\">\n    <select name=\"list\">\n        <option>one</option>\n        <option>two</option>\n        <option>three</option>\n    </select>\n</form>\n\nIn the server-side PHP code to deal with the form data, what is the value of $_POST['list'] ?",
+  "choices": {
+    "a": "1",
+    "b": "2",
+    "c": "two",
+    "d": "null"
+  },
+  "answers": ["c"]
+}

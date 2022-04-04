@@ -1,0 +1,9 @@
+{
+  "title": "What is the output of this code?\n\n$world = 'world';\necho <<<'TEXT'hello $worldTEXT;",
+  "choices": {
+    "a": "hello world",
+    "b": "hello $world",
+    "c": "PHP Parser error"
+  },
+  "answers": ["c"]
+}

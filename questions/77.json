@@ -1,0 +1,10 @@
+{
+  "title": "What will the $array array contain at the end of this script?\n\nfunction modifyArray(&$array)\n{\n    foreach ($array as &$value) {\n        $value = $value + 1;\n    }\n\n    $value = $value + 2;\n}\n\n$array = array(1, 2, 3);\nmodifyArray($array);",
+  "choices": {
+    "a": "2, 3, 4",
+    "b": "2, 3, 6",
+    "c": "4, 5, 6",
+    "d": "1, 2, 3"
+  },
+  "answers": ["b"]
+}

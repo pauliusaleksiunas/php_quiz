@@ -1,0 +1,11 @@
+{
+  "title": "What is the method used to execute XPath queries in the SimpleXML extension?",
+  "choices": {
+    "a": "xpathQuery()",
+    "b": "xpath()",
+    "c": "simpleXMLXpath()",
+    "d": "query()",
+    "e": "evaluate()"
+  },
+  "answers": ["b"]
+}

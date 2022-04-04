@@ -1,0 +1,10 @@
+{
+  "title": "How should class MyObject be defined for the following code to work properly? Assume $array is an array and MyObject is a user-defined class.\n\n$obj = new MyObject();\narray_walk($array, $obj);",
+  "choices": {
+    "a": "MyObject should extend class Closure",
+    "b": "MyObject should implement interface Callable",
+    "c": "MyObject should implement method __call",
+    "d": "MyObject should implement method __invoke"
+  },
+  "answers": ["d"]
+}

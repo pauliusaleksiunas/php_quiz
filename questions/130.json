@@ -1,0 +1,11 @@
+{
+  "title": "In the following code, which classes can be instantiated?\n\nabstract class Graphics\n{\n    abstract function draw($im, $col);\n}\n\nabstract class Point1 extends Graphics\n{\n    public $x, $y;\n\n    function __construct($x, $y)\n    {\n        $this->x = $x;\n        $this->y = $y;\n    }\n\n    function draw($im, $col)\n    {\n        ImageSetPixel($im, $this->x, $this->y, $col);\n    }\n}\n\nclass Point2 extends Point1\n{\n}\n\nabstract class Point3 extends Point2\n{\n}",
+  "choices": {
+    "a": "Graphics",
+    "b": "Point1",
+    "c": "Point2",
+    "d": "Point3",
+    "e": "None, the code is invalid"
+  },
+  "answers": ["c"]
+}

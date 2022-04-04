@@ -1,0 +1,10 @@
+{
+  "title": "Given a DateTime object that is set to the first second of the year 2014,\nwhich of the following samples will correctly return a date in the format '2014-01-01 00:00:01'?",
+  "choices": {
+    "a": "$datetime->format('%Y-%m-%d %h:%i:%s')",
+    "b": "$datetime->format('%Y-%m-%d %h:%i:%s', array('year', 'month', 'day', 'hour', 'minute', 'second'))",
+    "c": "$datetime->format('Y-m-d H:i:s')",
+    "d": "$date = date('Y-m-d H:i:s', $datetime);"
+  },
+  "answers": ["c"]
+}

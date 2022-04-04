@@ -1,0 +1,9 @@
+{
+  "title": "Which of these elements can be encapsulated by namespaces and made accessible from the outside?",
+  "choices": {
+    "a": "Only classes",
+    "b": "Classes, functions and constants",
+    "c": "Classes, functions, constants and variables"
+  },
+  "answers": ["b"]
+}

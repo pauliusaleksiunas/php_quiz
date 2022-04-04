@@ -1,0 +1,10 @@
+{
+  "title": "When a query that is supposed to affect rows is executed as part of a transaction, and reports no affected rows, it could mean that: (Choose 2)",
+  "choices": {
+    "a": "The transaction failed",
+    "b": "The transaction affected no lines",
+    "c": "The transaction was rolled back",
+    "d": "The transaction was committed without error"
+  },
+  "answers": ["a", "b"]
+}

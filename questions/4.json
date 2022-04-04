@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following may be used in conjunction with CASE inside a SWITCH statement?",
+  "choices": {
+    "a": "A scalar",
+    "b": "An expression",
+    "c": "A boolean",
+    "d": "All of the above"
+  },
+  "answers": ["d"]
+}

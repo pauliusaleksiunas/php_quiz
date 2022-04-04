@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements about exceptions is correct? (Choose 2)",
+  "choices": {
+    "a": "you can only throw classes derived from Exception",
+    "b": "a try block can have multiple catch blocks",
+    "c": "a try block must not be followed by a catch block",
+    "d": "try blocks cannot contain nested try blocks"
+  },
+  "answers": ["a", "b"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What parsing methodology is utilized by the SimpleXML extension?",
+  "choices": {
+    "a": "SAX",
+    "b": "DOM",
+    "c": "XPath",
+    "d": "Push/Pull Approach",
+    "e": "Expat"
+  },
+  "answers": ["b"]
+}

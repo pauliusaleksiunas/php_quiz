@@ -1,0 +1,10 @@
+{
+  "title": "An unbuffered database query will: (Choose 2)",
+  "choices": {
+    "a": "Return the first data faster",
+    "b": "Return all data faster",
+    "c": "Free connection faster for others scripts to use",
+    "d": "Use less memory\n"
+  },
+  "answers": ["a", "d"]
+}

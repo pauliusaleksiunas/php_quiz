@@ -1,0 +1,11 @@
+{
+  "title": "What is the recommended method of copying data between two opened files?",
+  "choices": {
+    "a": "copy($source_file, $destination_file);",
+    "b": "copy($destination_file, $source_file);",
+    "c": "stream_copy_to_stream($source_file, $destination_file);",
+    "d": "stream_copy_to_stream($destination_file, $source_file);",
+    "e": "stream_bucket_prepend($source_file, $destination_file);\n"
+  },
+  "answers": ["c"]
+}

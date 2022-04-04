@@ -1,0 +1,12 @@
+{
+  "title": "Which of the following is correct? (Choose 2)",
+  "choices": {
+    "a": "A class can extend more than one class.",
+    "b": "A class can implement more than one class.",
+    "c": "A class can extend more than one interface.",
+    "d": "A class can implement more than one interface.",
+    "e": "An interface can extend more than one interface.",
+    "f": "An interface can implement more than one interface."
+  },
+  "answers": ["d", "e"]
+}

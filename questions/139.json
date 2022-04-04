@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following techniques ensures that a value submitted in a form can only be yes or no ?",
+  "choices": {
+    "a": "Use a select list that only lets the user choose between yes and no .",
+    "b": "Use a hidden input field that has a value of yes or no .",
+    "c": "Enable the safe_mode configuration directive.",
+    "d": "None of the above."
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following can NOT be used to send a cookie from within a PHP application?",
+  "choices": {
+    "a": "header()",
+    "b": "$_COOKIE",
+    "c": "setcookie()",
+    "d": "setrawcookie()"
+  },
+  "answers": ["b"]
+}

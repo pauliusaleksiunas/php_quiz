@@ -1,0 +1,10 @@
+{
+  "title": "SimpleXML provides the ability to iterate over items in an XML document, as well as\naccess items within it as if they were object properties. When creating your own\nclasses to access data, implementing which of the following would NOT achieve this goal?",
+  "choices": {
+    "a": "__toString",
+    "b": "Iterator",
+    "c": "__get/__set",
+    "d": "ArrayAccess"
+  },
+  "answers": ["a"]
+}

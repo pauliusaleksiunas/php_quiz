@@ -1,0 +1,10 @@
+{
+  "title": "Which of these statements about PDO is NOT true?",
+  "choices": {
+    "a": "PDO has built-in support for Large Objects (LOBs).",
+    "b": "Placeholders within PDO prepared statements need to be named.",
+    "c": "When something goes wrong, PDO can throw an instance of its own exception class.",
+    "d": "PDO does not emulate missing database features."
+  },
+  "answers": ["b"]
+}

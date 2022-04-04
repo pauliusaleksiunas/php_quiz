@@ -1,0 +1,9 @@
+{
+  "title": "Which of the following statements is NOT correct?",
+  "choices": {
+    "a": "Only methods can have type hints",
+    "b": "Typehints can be optional",
+    "c": "Typehints can be references"
+  },
+  "answers": ["a"]
+}

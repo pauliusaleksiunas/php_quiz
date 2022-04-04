@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements is NOT true?",
+  "choices": {
+    "a": "Class constants are public",
+    "b": "Class constants are being inherited",
+    "c": "Class constants can omit initialization (default to NULL)",
+    "d": "Class constants can be initialized by const"
+  },
+  "answers": ["c"]
+}

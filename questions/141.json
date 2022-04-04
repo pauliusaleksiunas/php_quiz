@@ -1,0 +1,11 @@
+{
+  "title": "Which constant must be passed as the second argument to htmlentities() to convert single quotes (') to HTML entities?",
+  "choices": {
+    "a": "TRUE",
+    "b": "FALSE",
+    "c": "ENT_QUOTES",
+    "d": "ENT_NOQUOTES",
+    "e": "ENT_COMPAT"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "What is the output of the following code?\n\nvar_dump(boolval([]));",
+  "choices": {
+    "a": "bool(true)",
+    "b": "bool(false)"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass Bar\n{\n    private $a = 'b';\n    public $c = 'd';\n}\n\n$x = (array)new Bar();\necho array_key_exists('a', $x) ? 'true' : 'false';\necho '-';\necho array_key_exists('c', $x) ? 'true' : 'false';",
+  "choices": {
+    "a": "false-false",
+    "b": "false-true",
+    "c": "true-false",
+    "d": "true-true"
+  },
+  "answers": ["b"]
+}

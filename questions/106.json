@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following PHP functions can be used to set the HTTP response code? (Choose 2)",
+  "choices": {
+    "a": "header_add()",
+    "b": "header()",
+    "c": "http_set_status()",
+    "d": "http_response_code()",
+    "e": "http_header_set()"
+  },
+  "answers": ["b", "d"]
+}

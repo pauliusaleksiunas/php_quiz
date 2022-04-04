@@ -1,0 +1,11 @@
+{
+  "title": "In order to create an object storage where each object would be stored only once, you may use which of the following? (Choose 2)",
+  "choices": {
+    "a": "SplFixedArray",
+    "b": "SplObjectStorage",
+    "c": "SplString",
+    "d": "spl_object_hash",
+    "e": "spl_same_object"
+  },
+  "answers": ["b", "d"]
+}

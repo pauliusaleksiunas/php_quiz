@@ -1,0 +1,11 @@
+{
+  "title": "What will be the output value of the following code?\n\n$array = array(1,2,3);\nwhile (list(,$v) = each($array));\nvar_dump(current($array));",
+  "choices": {
+    "a": "bool(false)",
+    "b": "int(3)",
+    "c": "int(1)",
+    "d": "NULL",
+    "e": "Array"
+  },
+  "answers": ["a"]
+}

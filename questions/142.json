@@ -1,0 +1,11 @@
+{
+  "title": "One common security risk is exposing error messages directly in the browser. Which PHP configuration directive can be disabled to prevent this?",
+  "choices": {
+    "a": "html_display",
+    "b": "error_reporting",
+    "c": "display_errors",
+    "d": "error_log",
+    "e": "ignore_repeated_errors"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Before the headers are sent, how can you remove a previously set header?",
+  "choices": {
+    "a": "Use the header_remove() function, providing the name of the header",
+    "b": "Use the die() function to abort the PHP script",
+    "c": "Not possible",
+    "d": "Use the headers_list() function, providing the name of the header as the second argument"
+  },
+  "answers": ["a"]
+}

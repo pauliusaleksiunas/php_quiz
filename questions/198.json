@@ -1,0 +1,11 @@
+{
+  "title": "Which PHP function retrieves a list of HTTP headers that have been sent as part of the HTTP response or are ready to be sent?",
+  "choices": {
+    "a": "header()",
+    "b": "headers()",
+    "c": "headers_list()",
+    "d": "headers_sent()",
+    "e": "getresponseheaders()"
+  },
+  "answers": ["c"]
+}

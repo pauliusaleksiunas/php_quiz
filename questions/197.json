@@ -1,0 +1,11 @@
+{
+  "title": "An HTML form contains this form element:\n\n<input type=\"file\" name=\"myFile\"/>\nmove_uploaded_file($_FILES['myFile']['tmp_name'],'uploads/' . $_FILES['myFile']['name']);\n\nWhich of the following actions must be taken before this code may go into production? (Choose 2)",
+  "choices": {
+    "a": "Check with is_uploaded_file() whether the uploaded file $_FILES['myFile']['tmp_name'] is valid",
+    "b": "Sanitize the file name in $_FILES['myFile']['name'] because this value is not consistent among web browsers",
+    "c": "Check the charset encoding of the HTTP request to see whether it matches the encoding of the uploaded file",
+    "d": "Sanitize the file name in $_FILES['myFile']['name'] because this value could be forged",
+    "e": "Use $HTTP_POST_FILES instead of $_FILES to maintain upwards compatibility"
+  },
+  "answers": ["b", "d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Which MIME type is always sent by a client if a JPEG file is uploaded via HTTP?",
+  "choices": {
+    "a": "image/jpeg",
+    "b": "image/jpg",
+    "c": "image/pjpeg",
+    "d": "Depends on the client system"
+  },
+  "answers": ["d"]
+}

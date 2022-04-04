@@ -1,0 +1,10 @@
+{
+  "title": "Which one of the following XML declarations is NOT valid?",
+  "choices": {
+    "a": "<?xml version=\"1.0\" ?>",
+    "b": "<?xml version=\"1.1\" encoding=\"UTF-8\" ?>",
+    "c": "<?xml standalone=\"no\" ?>",
+    "d": "<?xml standalone=\"1\" ?>"
+  },
+  "answers": ["d"]
+}

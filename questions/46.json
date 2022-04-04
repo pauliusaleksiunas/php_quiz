@@ -1,0 +1,10 @@
+{
+  "title": "Consider the following table data and PHP code, and assume that the database supports transactions.\nWhat is the outcome?\n\nTable data (table name \"users\" with primary key \"id\"):\n\n\nid name email\n------- ----------- -------------------\n1 anna  alpha@example.com\n2 betty beta@example.org\n3 clara gamma@example.net\n5 sue   sigma@example.info\n\nPHP code (assume the PDO connection is correctly established):\n\n$dsn = 'mysql:host=localhost;dbname=exam';\n$user = 'username';\n$pass = '********';\n$pdo = new PDO($dsn, $user, $pass);\ntry {\n    $pdo->exec(\"INSERT INTO users (id, name, email) VALUES (6, 'bill', '\ndelta@example.com')\");\n    $pdo->begin();\n    $pdo->exec(\"INSERT INTO users (id, name, email) VALUES (7, 'john','e\npsilon@example.com')\");\n    throw new Exception();\n} catch (Exception $e) {\n    $pdo->rollBack();\n}",
+  "choices": {
+    "a": "The user 'bill' will be inserted, but the user 'john' will not be.",
+    "b": "Both user 'bill' and user 'john' will be inserted.",
+    "c": "Neither user 'bill' nor user 'john' will be inserted.",
+    "d": "The user 'bill' will not be inserted, but the user 'john' will be."
+  },
+  "answers": ["a"]
+}

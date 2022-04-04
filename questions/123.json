@@ -1,0 +1,13 @@
+{
+  "title": "What is the output of the following code?\n\ntry {\n    class MyException extends Exception\n    {\n    }\n\n    try {\n        throw new MyException;\n    } catch (Exception $e) {\n        echo \"1:\";\n        throw $e;\n    } catch (MyException $e) {\n        echo \"2:\";\n        throw $e;\n    }\n} catch (Exception $e) {\n    echo get_class($e);\n}",
+  "choices": {
+    "a": "A parser error, try cannot be followed by multiple catch",
+    "b": "1:",
+    "c": "2:",
+    "d": "1:Exception",
+    "e": "1:MyException",
+    "f": "2:MyException",
+    "g": "MyException"
+  },
+  "answers": ["e"]
+}

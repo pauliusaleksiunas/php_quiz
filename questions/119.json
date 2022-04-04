@@ -1,0 +1,11 @@
+{
+  "title": "Given the following code, what is correct?\n\nfunction f(stdClass &$x = NULL)\n{\n    $x = 42;\n}\n\n$z = new stdClass;\nf($z);\nvar_dump($z);\n",
+  "choices": {
+    "a": "Error: Typehints cannot be NULL",
+    "b": "Error: Typehints cannot be references",
+    "c": "Result is NULL",
+    "d": "Result is object of type stdClass",
+    "e": "Result is 42"
+  },
+  "answers": ["e"]
+}

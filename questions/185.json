@@ -1,0 +1,11 @@
+{
+  "title": "You want to access the 3rd character of a string, contained in the variable $test. Which of the following possibilites work? (Choose 2)",
+  "choices": {
+    "a": "echo $test(3);",
+    "b": "echo $test[2];",
+    "c": "echo $test(2);",
+    "d": "echo $test{2};",
+    "e": "echo $test{3};"
+  },
+  "answers": ["b", "d"]
+}

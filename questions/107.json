@@ -1,0 +1,11 @@
+{
+  "title": "What is the name of the header used to require HTTP authentication?",
+  "choices": {
+    "a": "Authorization-Required",
+    "b": "WWW-Authenticate",
+    "c": "HTTP-Authenticate",
+    "d": "Authentication-Required",
+    "e": "HTTP-Auth"
+  },
+  "answers": ["b"]
+}

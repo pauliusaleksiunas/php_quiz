@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\necho \"22\" + \"0.2\", 23 . 1;",
+  "choices": {
+    "a": "220.2231",
+    "b": "22.2231",
+    "c": "22.2,231",
+    "d": "56.2"
+  },
+  "answers": ["b"]
+}

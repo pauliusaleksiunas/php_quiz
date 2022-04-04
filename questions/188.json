@@ -1,0 +1,10 @@
+{
+  "title": "How many elements does the $matches array contain after the following function call is performed?\n\npreg_match('/^(\\d{1,2}([a-\nz]+))(?:\\s*)\\S+ (?=201[0-9])/', '21st March 2014', $matches);",
+  "choices": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+  },
+  "answers": ["c"]
+}

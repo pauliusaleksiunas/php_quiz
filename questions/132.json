@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following statements about PHP is false? (Choose 2)",
+  "choices": {
+    "a": "A final class can be derived.",
+    "b": "A final class may be instantiated.",
+    "c": "A class with a final function may be derived.",
+    "d": "Static functions can be final.",
+    "e": "Properties can be final."
+  },
+  "answers": ["a", "e"]
+}

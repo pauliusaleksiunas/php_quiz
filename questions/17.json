@@ -1,0 +1,10 @@
+{
+  "title": "What does the __FILE__ constant contain?",
+  "choices": {
+    "a": "The filename of the current script.",
+    "b": "The full path to the current script.",
+    "c": "The URL of the request made.",
+    "d": "The path to the main script."
+  },
+  "answers": ["b"]
+}

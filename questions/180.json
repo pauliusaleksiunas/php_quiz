@@ -1,0 +1,10 @@
+{
+  "title": "What will the following code piece print?\n\necho strtr('Apples and bananas', 'ae', 'ea')",
+  "choices": {
+    "a": "Applas end benenes",
+    "b": "Epplas end benenes",
+    "c": "Apples and bananas",
+    "d": "Applas end bananas"
+  },
+  "answers": ["a"]
+}

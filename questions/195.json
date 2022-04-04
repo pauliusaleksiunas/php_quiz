@@ -1,0 +1,10 @@
+{
+  "title": "\nHow many elements does the array $pieces contain after the following piece of code has been executed?\n\n$pieces = explode(\"/\", \"///\");",
+  "choices": {
+    "a": "0",
+    "b": "3",
+    "c": "4",
+    "d": "5"
+  },
+  "answers": ["c"]
+}

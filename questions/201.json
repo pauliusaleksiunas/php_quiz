@@ -1,0 +1,10 @@
+{
+  "title": "When uploading a file to a PHP script using the HTTP PUT method, where would the file data be found?",
+  "choices": {
+    "a": "the $_FILES super-global",
+    "b": "the input stream php://input",
+    "c": "the $_POST super-global",
+    "d": "the global variable scope"
+  },
+  "answers": ["b"]
+}

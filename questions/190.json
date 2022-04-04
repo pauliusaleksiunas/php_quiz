@@ -1,0 +1,11 @@
+{
+  "title": "Given the default PHP configuration, how can all of the parameters provided via GET be accessed in a form of a string?",
+  "choices": {
+    "a": "$_GET['ALL']",
+    "b": "$_SERVER['QUERY']",
+    "c": "$_SERVER['QUERY_STRING']",
+    "d": "$_ENV['QUERY']",
+    "e": "$QUERY_STRING"
+  },
+  "answers": ["c"]
+}

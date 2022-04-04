@@ -1,0 +1,10 @@
+{
+  "title": "When would you use classes and when would you use namespaces?",
+  "choices": {
+    "a": "Use classes to encapsulate code and represent objects, and namespaces to avoid symbol name collisions",
+    "b": "Use classes for performance-sensitive code, and namespaces when readability matters more",
+    "c": "Use namespaces for performance-sensitive code, and classes when readability matters more",
+    "d": "Always use them; namespaces are always superior to classes"
+  },
+  "answers": ["a"]
+}

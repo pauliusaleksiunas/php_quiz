@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass Number\n{\n    private $v;\n    private static $sv = 10;\n\n    public function __construct($v)\n    {\n        $this->v = $v;\n    }\n\n    public function mul()\n    {\n        return static function ($x) {\n            return isset($this) ? $this->v * $x : self::$sv * $x;\n        };\n    }\n}\n\n$one = new Number(1);\n$two = new Number(2);\n$double = $two->mul();\n$x = Closure::bind($double, null, 'Number');\necho $x(5);",
+  "choices": {
+    "a": "5",
+    "b": "10",
+    "c": "50",
+    "d": "Fatal error"
+  },
+  "answers": ["c"]
+}

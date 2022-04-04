@@ -1,0 +1,10 @@
+{
+  "title": "\nWhich of the following PHP values may NOT be encoded to a JavaScript literal using PHP's ext/json capabilities?",
+  "choices": {
+    "a": "'Hello, world!'",
+    "b": "function(){ alert(\"Hello, world!\"); }",
+    "c": "array('Hello, world!')",
+    "d": "array('message' => 'Hello, world!')"
+  },
+  "answers": ["b"]
+}

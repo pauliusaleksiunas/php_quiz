@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following is NOT true about PHP traits? (Choose 2)",
+  "choices": {
+    "a": "Multiple traits can be used by a single class.",
+    "b": "A trait can implement an interface.",
+    "c": "A trait can declare a private variable.",
+    "d": "Traits are able to be auto-loaded.",
+    "e": "Traits automatically resolve conflicts based on definition order."
+  },
+  "answers": ["b", "e"]
+}

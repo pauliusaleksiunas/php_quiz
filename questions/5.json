@@ -1,0 +1,9 @@
+{
+  "title": "What is the output of the following code?\n\n$a = 'a';\n$b = 'b';\necho isset($c) ? $a.$b.$c : ($c = 'c').'d';",
+  "choices": {
+    "a": "abc",
+    "b": "cd",
+    "c": "0d"
+  },
+  "answers": ["b"]
+}

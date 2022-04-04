@@ -1,0 +1,10 @@
+{
+  "title": "PHP's array functions such as array_values() can be used on an object if the object...",
+  "choices": {
+    "a": "implements Traversable",
+    "b": "is an instance of ArrayObject",
+    "c": "implements ArrayAccess",
+    "d": "None of the above"
+  },
+  "answers": ["d"]
+}

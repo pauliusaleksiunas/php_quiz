@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following are valid identifiers? (Choose 3)",
+  "choices": {
+    "a": "function 4You() { }",
+    "b": "function _4You() { }",
+    "c": "function object() { }",
+    "d": "$1 = \"Hello\";",
+    "e": "$_1 = \"Hello World\";"
+  },
+  "answers": ["b", "c", "e"]
+}

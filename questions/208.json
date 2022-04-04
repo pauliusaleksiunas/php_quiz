@@ -1,0 +1,10 @@
+{
+  "title": "What would be output when the following code is run?\n\nclass M\n{\n    function m()\n    {\n        echo \"M\";\n    }\n\n    function construct()\n    {\n        echo \"mmm\";\n    }\n}\n\n$m = new M();\n$m->m();",
+  "choices": {
+    "a": "MM",
+    "b": "mm",
+    "c": "M",
+    "d": "m"
+  },
+  "answers": ["a"]
+}

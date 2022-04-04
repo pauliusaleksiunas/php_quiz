@@ -1,0 +1,10 @@
+{
+  "title": "You'd like to use the class MyDBConnection that's defined in the\nMyGreatFramework\\MyGreatDatabaseAbstractionLayer namespace, but you want to\nminimize *as much as possible* the length of the class name you have to type. What\nwould you do?",
+  "choices": {
+    "a": "Import the MyGreatFramework namespace",
+    "b": "Import the MyGreatFramework\\MyGreatDatabaseAbstractionLayer namespace",
+    "c": "Alias MyGreatFramework\\MyGreatDatabaseAbstractionLayer\\MyDBConnection to a shorter name",
+    "d": "Alias MyGreatFramework\\MyGreatDatabaseAbstractionLayer to a shorter name"
+  },
+  "answers": ["c"]
+}

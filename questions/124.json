@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following is NOT possible using reflection?",
+  "choices": {
+    "a": "Analysing of nearly any aspect of classes and interfaces",
+    "b": "Analysing of nearly any aspect of functions",
+    "c": "Adding class methods",
+    "d": "Implement dynamic construction (new with variable class name)"
+  },
+  "answers": ["c"]
+}

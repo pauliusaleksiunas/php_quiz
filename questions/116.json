@@ -1,0 +1,9 @@
+{
+  "title": "What is the result of the following code?\n\nclass T {\n    const A = 42 + 1;\n}\necho T::A;",
+  "choices": {
+    "a": "42",
+    "b": "43",
+    "c": "Parse error"
+  },
+  "answers": ["b"]
+}

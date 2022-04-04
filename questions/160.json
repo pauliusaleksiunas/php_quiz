@@ -1,0 +1,11 @@
+{
+  "title": "The XML document below has been parsed into $xml via SimpleXML. How can the value of <foo> tag accessed?\n\n<?xml version='1.0'?>\n<document>\n    <bar>\n        <foo>Value</foo>\n    </bar>\n</document>",
+  "choices": {
+    "a": "$xml->bar['foo']",
+    "b": "$xml->bar->foo",
+    "c": "$xml['document']['bar']['foo']",
+    "d": "$xml->document->bar->foo",
+    "e": "$xml->getElementByName('foo');"
+  },
+  "answers": ["b"]
+}

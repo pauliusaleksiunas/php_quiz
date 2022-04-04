@@ -1,0 +1,10 @@
+{
+  "title": "The following form is loaded in a browser and submitted, with the checkbox activated:\n\n<form method=\"post\"><input type=\"checkbox\" name=\"accept\" /></form>\n\nIn the server-side PHP code to deal with the form data, what is the value of $_POST['accept'] ?",
+  "choices": {
+    "a": "accept",
+    "b": "ok",
+    "c": "true",
+    "d": "on"
+  },
+  "answers": ["d"]
+}

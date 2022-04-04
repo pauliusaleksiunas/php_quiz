@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following is true about stream contexts? (Choose 2)",
+  "choices": {
+    "a": "A context can modify or enhance the behavior of a stream",
+    "b": "A context indicates what session the stream is part of",
+    "c": "A context is a set of parameters and stream wrapper specific options",
+    "d": "Contexts are created with new Stream_Context();"
+  },
+  "answers": ["a", "c"]
+}

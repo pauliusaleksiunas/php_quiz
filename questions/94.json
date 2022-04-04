@@ -1,0 +1,11 @@
+{
+  "title": "Given the following code, how can we use both traits A and B in the same class? (select all that apply)\n\ntrait A\n{\n    public function hello()\n    {\n        return \"hello\";\n    }\n\n    public function world()\n    {\n        return \"world\";\n    }\n}\n\ntrait B\n{\n    public function hello()\n    {\n        return \"Hello\";\n    }\n\n    public function person($name)\n    {\n        return \":$name\";\n    }\n}",
+  "choices": {
+    "a": "Rename the A::hello() method to a different name using A::hello as helloA;",
+    "b": "Use B::hello() instead of A 's version using B::hello insteadof A",
+    "c": "Use B::hello() instead of A 's version using use B::hello",
+    "d": "Rename the A::hello() method to a different name using A::hello renameto helloA;",
+    "e": "None of the above (both can be used directly)"
+  },
+  "answers": ["b"]
+}

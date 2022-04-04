@@ -1,0 +1,10 @@
+{
+  "title": "How should you track errors on your production website?",
+  "choices": {
+    "a": "Enabling display_errors",
+    "b": "Enabling log_errors",
+    "c": "Having a site-wide exception handler",
+    "d": "Setting error_reporting to E_ALL & ~E_NOTICE"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nfunction append($str)\n{\n    $str = $str . 'append';\n}\n\nfunction prepend(&$str)\n{\n    $str = 'prepend' . $str;\n}\n\n$string = 'zce';\nappend(prepend($string));\necho $string;",
+  "choices": {
+    "a": "zceappend",
+    "b": "prependzceappend",
+    "c": "prependzce",
+    "d": "zce"
+  },
+  "answers": ["c"]
+}

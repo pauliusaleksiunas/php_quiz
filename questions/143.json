@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following superglobals does not necessarily contain data from the client?",
+  "choices": {
+    "a": "$_POST",
+    "b": "$_SESSION",
+    "c": "$_GET",
+    "d": "$_SERVER"
+  },
+  "answers": ["b"]
+}

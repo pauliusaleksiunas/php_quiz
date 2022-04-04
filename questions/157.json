@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following can be registered as entry points with a SoapServer instance (choose 2):",
+  "choices": {
+    "a": "A single function",
+    "b": "A single method from a class",
+    "c": "All methods from a class",
+    "d": "All classes defined in a script"
+  },
+  "answers": ["a", "c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements about SOAP is NOT true?",
+  "choices": {
+    "a": "SOAP is also a request-/response-based protocol.",
+    "b": "SOAP can be transported using SMTP, HTTP and other protocols.",
+    "c": "SOAP requires developers to use WSDL.",
+    "d": "SOAP traffic via HTTP can be encrypted and compressed just like other HTTP requests."
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What will the following function call print?\n\nprintf('%010.6f', 22);",
+  "choices": {
+    "a": "22",
+    "b": "22.00",
+    "c": "022.000000",
+    "d": "22.000000"
+  },
+  "answers": ["c"]
+}

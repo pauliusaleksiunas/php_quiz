@@ -1,0 +1,11 @@
+{
+  "title": "What function can reverse the order of values in an array so that keys are preserved?",
+  "choices": {
+    "a": "array_flip()",
+    "b": "array_reverse()",
+    "c": "rsort()",
+    "d": "krsort()",
+    "e": "array_multisort()"
+  },
+  "answers": ["b"]
+}

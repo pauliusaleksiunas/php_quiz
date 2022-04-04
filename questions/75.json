@@ -1,0 +1,10 @@
+{
+  "title": "How many times will the function counter() be executed in the following code?\n\nfunction counter($start, &$stop)\n{\n    if ($stop > $start) {\n        return;\n    }\n    counter($start--, ++$stop);\n}\n\n$start = 5;\n$stop = 2;\ncounter($start, $stop);",
+  "choices": {
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6"
+  },
+  "answers": ["c"]
+}

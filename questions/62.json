@@ -1,0 +1,10 @@
+{
+  "title": "What is the pattern modifier for handling UTF-8 encoded preg_* functionality?",
+  "choices": {
+    "a": "e",
+    "b": "u",
+    "c": "PHP does not support UTF-8 encoded strings",
+    "d": "A pattern modifier is not needed"
+  },
+  "answers": ["b"]
+}

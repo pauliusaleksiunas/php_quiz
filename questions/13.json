@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following code snippets DO NOT write the exact content of the file \"source.txt\" to \"target.txt\"? (Choose 2)",
+  "choices": {
+    "a": "file_put_contents(\"target.txt\", fopen(\"source.txt\", \"r\"));",
+    "b": "file_put_contents(\"target.txt\", readfile(\"source.txt\"));",
+    "c": "file_put_contents(\"target.txt\", join(file(\"source.txt\"), \"\\n\"));",
+    "d": "file_put_contents(\"target.txt\", file_get_contents(\"source.txt\"));",
+    "e": "$handle = fopen(\"target.txt\", \"w+\");\n   fwrite($handle, file_get_contents(\"source.txt\"));\n   fclose($handle);"
+  },
+  "answers": ["b", "c"]
+}

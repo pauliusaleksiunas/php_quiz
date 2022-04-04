@@ -1,0 +1,12 @@
+{
+  "title": "Which of the following is a valid way to pass the $callback parameter expected by array_walk()? (choose 3)",
+  "choices": {
+    "a": "An anonymous function",
+    "b": "An array containing the name of the function as the first element, and an array of arguments as the second element",
+    "c": "An instantiated object followed by the object operator and the method to call",
+    "d": "An array containing an instantiated object as the first element, and the method name as the second element",
+    "e": "A string containing the function name",
+    "f": "An array containing the function name as the first element"
+  },
+  "answers": ["a", "d", "e"]
+}

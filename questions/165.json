@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following statements are FALSE?",
+  "choices": {
+    "a": "SimpleXML allows removal of attributes.",
+    "b": "SimpleXML allows addition of new attributes.",
+    "c": "SimpleXML allows removal of nodes.",
+    "d": "SimpleXML allows addition of new nodes.",
+    "e": "None of the above"
+  },
+  "answers": ["e"]
+}

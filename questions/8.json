@@ -1,0 +1,11 @@
+{
+  "title": "What is the difference between \"print\" and \"echo\"?",
+  "choices": {
+    "a": "There is no difference.",
+    "b": "Print has a return value, echo does not",
+    "c": "Echo has a return value, print does not",
+    "d": "Print buffers the output, while echo does not",
+    "e": "None of the above"
+  },
+  "answers": ["b"]
+}

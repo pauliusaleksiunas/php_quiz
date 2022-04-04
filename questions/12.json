@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$first = \"second\";\n$second = \"first\";\necho $$$first;",
+  "choices": {
+    "a": "\"first\"",
+    "b": "\"second\"",
+    "c": "an empty string",
+    "d": "an error"
+  },
+  "answers": ["b"]
+}

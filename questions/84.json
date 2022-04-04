@@ -1,0 +1,10 @@
+{
+  "title": "\nWhat function can be used to retrieve an array of current options for a stream context?",
+  "choices": {
+    "a": "stream_context_get_params",
+    "b": "stream_context_get_default",
+    "c": "stream_context_get_options",
+    "d": "The 'options' element of the stream_get_meta_data return value"
+  },
+  "answers": ["c"]
+}

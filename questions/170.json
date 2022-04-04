@@ -1,0 +1,10 @@
+{
+  "title": "Which is the most efficient way to determine if a key is present in an array, assuming the array has no NULL values?",
+  "choices": {
+    "a": "in_array('key', array_keys($a))",
+    "b": "isset($a['key'])",
+    "c": "array_key_exists('key', $a)",
+    "d": "None of the above"
+  },
+  "answers": ["b"]
+}

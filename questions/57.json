@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$a = array('a', 'b' => 'c');\necho property_exists((object)$a, 'a') ? 'true' : 'false';\necho '-';\necho property_exists((object)$a, 'b') ? 'true' : 'false';",
+  "choices": {
+    "a": "false-false",
+    "b": "false-true",
+    "c": "true-false",
+    "d": "true-true"
+  },
+  "answers": ["b"]
+}

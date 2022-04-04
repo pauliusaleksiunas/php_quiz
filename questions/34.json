@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass Test\n{\n    public function __call($name, $args)\n    {\n        call_user_func_array(array('static', \"test$name\"), $args);\n    }\n\n    public function testS($l)\n    {\n        echo \"$l,\";\n    }\n}\n\nclass Test2 extends Test\n{\n    public function testS($l)\n    {\n        echo \"$l,$l,\";\n    }\n}\n\n$test = new Test2();\n$test->S('A');",
+  "choices": {
+    "a": "A,",
+    "b": "A,A,",
+    "c": "A,A,A,",
+    "d": "PHP Warning: call_user_func_array() expects parameter 1 to be a valid callback\n"
+  },
+  "answers": ["b"]
+}

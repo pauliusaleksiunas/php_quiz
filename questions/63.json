@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$text = 'This is text';\n$text1 = <<<'TEXT'\n$text\nTEXT;\n$text2 = <<<TEXT\n$text1\nTEXT;\necho $text2;\n",
+  "choices": {
+    "a": "This is text",
+    "b": "$text",
+    "c": "$text1",
+    "d": "$text2"
+  },
+  "answers": ["b"]
+}

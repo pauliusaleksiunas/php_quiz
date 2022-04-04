@@ -1,0 +1,10 @@
+{
+  "title": "Given a JSON-encoded string, which code sample correctly indicates how to decode the string to native PHP values?\n",
+  "choices": {
+    "a": "$json = new Json($jsonValue); $value = $json->decode();",
+    "b": "$value = Json::decode($jsonValue);",
+    "c": "$value = json_decode($jsonValue);",
+    "d": "$value = Json::fromJson($jsonValue);"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n\n$a = 3;\nswitch ($a) {\n  case 1: echo 'one'; break;\n  case 2: echo 'two'; break;\n  default: echo 'four'; break;\n  case 3: echo 'three'; break;\n}\n",
+  "choices": {
+    "a": "one",
+    "b": "two",
+    "c": "three",
+    "d": "four"
+  },
+  "answers": ["c"]
+}

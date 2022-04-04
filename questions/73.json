@@ -1,0 +1,10 @@
+{
+  "title": "An HTML form has two submit buttons. After submitting the form, how can you determine with PHP which button was clicked?",
+  "choices": {
+    "a": "An HTML form may only have one button.",
+    "b": "You cannot determine this with PHP only. You must use JavaScript to add a value to the URL depending on which button has been clicked.",
+    "c": "Put the two buttons in different forms, but make sure they have the same name.",
+    "d": "Assign name and value attributes to each button and use $_GET or $_POST to find out which button has been clicked."
+  },
+  "answers": ["d"]
+}

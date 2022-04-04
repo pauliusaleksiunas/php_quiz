@@ -1,0 +1,10 @@
+{
+  "title": "What is the name of the function that allows you register a set of functions that implement userdefined session handling?",
+  "choices": {
+    "a": "session_set_handler()",
+    "b": "session_set_storage_handler()",
+    "c": "session_register_handler()",
+    "d": "session_set_save_handler()"
+  },
+  "answers": ["d"]
+}

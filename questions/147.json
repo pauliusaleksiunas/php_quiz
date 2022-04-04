@@ -1,0 +1,10 @@
+{
+  "title": "Transactions should be used to: (Choose 2)",
+  "choices": {
+    "a": "Prevent errors in case of a power outage or a failure in the SQL connection",
+    "b": "Ensure that the data is properly formatted",
+    "c": "Ensure that either all statements are performed properly, or that none of them are.",
+    "d": "Recover from user errors"
+  },
+  "answers": ["a", "c"]
+}

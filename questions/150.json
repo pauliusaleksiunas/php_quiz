@@ -1,0 +1,11 @@
+{
+  "title": "Consider the following XML code:\n\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<books>\n   <book id=\"1\">PHP 7.1 in 42 Hours</book>\n   <book id=\"2\">Learning PHP 7.1 The Hard Way</book>\n</books>\n\nWhich of the following SimpleXML calls prints the name of the second book? (Let $xml = simplexml_load_file(\"books.xml\"); .) (Choose 2)",
+  "choices": {
+    "a": "echo $xml->books->book[2];",
+    "b": "echo $xml->books->book[1];",
+    "c": "echo $xml->book[1];",
+    "d": "echo $xml->xpath(\"/books/book[@id=2]\");",
+    "e": "$c = $xml->children(); echo $c[1];"
+  },
+  "answers": ["c", "e"]
+}

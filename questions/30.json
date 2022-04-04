@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass C\n{\n    public $x = 1;\n\n    function __construct()\n    {\n        ++$this->x;\n    }\n\n    function __invoke()\n    {\n        return ++$this->x;\n    }\n\n    function __toString()\n    {\n        return (string)--$this->x;\n    }\n}\n\n$obj = new C();\necho $obj();",
+  "choices": {
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "3"
+  },
+  "answers": ["d"]
+}

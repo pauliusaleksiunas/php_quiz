@@ -1,0 +1,11 @@
+{
+  "title": "What is the name of the method that can be used to provide read access to virtual properties in a class?",
+  "choices": {
+    "a": "__call()",
+    "b": "__get()",
+    "c": "__set()",
+    "d": "__wakeup()",
+    "e": "__fetch()"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "When using password_hash() with the PASSWORD_DEFAULT algorithm constant, which of the following is true? (Choose 2)",
+  "choices": {
+    "a": "The algorithm that is used for hashing passwords can change when PHP is upgraded.",
+    "b": "The salt option should always be set to a longer value to account for future algorithm requirements.",
+    "c": "The string length of the returned hash can change over time.",
+    "d": "The hash algorithm that's used will always be compatible with crypt()."
+  },
+  "answers": ["a", "c"]
+}

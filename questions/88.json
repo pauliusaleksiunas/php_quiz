@@ -1,0 +1,10 @@
+{
+  "title": "Which php.ini setting is usually required to use an opcode cache?",
+  "choices": {
+    "a": "extension",
+    "b": "zend_extension",
+    "c": "optimizer",
+    "d": "dl"
+  },
+  "answers": ["b"]
+}

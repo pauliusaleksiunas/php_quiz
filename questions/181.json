@@ -1,0 +1,10 @@
+{
+  "title": "You want to parse a URL into its single parts. Which function do you choose?",
+  "choices": {
+    "a": "parse_url()",
+    "b": "url_parse()",
+    "c": "get_url_parts()",
+    "d": "geturlparts()"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\necho '1' . (print '2') + 3;",
+  "choices": {
+    "a": "123",
+    "b": "213",
+    "c": "142",
+    "d": "214",
+    "e": "Syntax error"
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass A\n{\n    public $a = 1;\n\n    public function __construct($a)\n    {\n        $this->a = $a;\n    }\n\n    public function mul()\n    {\n        return function ($x) {\n            return $this->a * $x;\n        };\n    }\n}\n\n$a = new A(2);\n$a->mul = function ($x) {\n    return $x * $x;\n};\n$m = $a->mul();\necho $m(3);",
+  "choices": {
+    "a": "9",
+    "b": "6",
+    "c": "0",
+    "d": "3"
+  },
+  "answers": ["b"]
+}

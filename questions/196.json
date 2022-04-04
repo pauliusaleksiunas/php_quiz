@@ -1,0 +1,11 @@
+{
+  "title": "Which string will be returned by the following function call?\n\n$test = '/etc/conf.d/wireless';\nsubstr($test, strrpos($test, '/')); // note that strrpos() is being call\ned, and not strpos()",
+  "choices": {
+    "a": "\"\"",
+    "b": "\"/wireless\"",
+    "c": "\"wireless\"",
+    "d": "\"/conf.d/wireless\"",
+    "e": "\"/etc\""
+  },
+  "answers": ["b"]
+}

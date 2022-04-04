@@ -1,0 +1,11 @@
+{
+  "title": "What will be the result of the following operation?\n\n$a = array_merge([1,2,3] + [4=>1,5,6]);\necho $a[2];",
+  "choices": {
+    "a": "4",
+    "b": "3",
+    "c": "2",
+    "d": "false",
+    "e": "Parse error"
+  },
+  "answers": ["b"]
+}

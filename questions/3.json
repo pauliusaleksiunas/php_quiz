@@ -1,0 +1,11 @@
+{
+  "title": "What is \"instanceof\" an example of?",
+  "choices": {
+    "a": "a boolean",
+    "b": "an operator",
+    "c": "a function",
+    "d": "a language construct",
+    "e": "a class magic"
+  },
+  "answers": ["b"]
+}

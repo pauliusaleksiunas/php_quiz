@@ -1,0 +1,11 @@
+{
+  "title": "What is the result of the following bitwise operation in PHP?\n\n1 ^ 2",
+  "choices": {
+    "a": "1",
+    "b": "3",
+    "c": "2",
+    "d": "4",
+    "e": "-1"
+  },
+  "answers": ["b"]
+}

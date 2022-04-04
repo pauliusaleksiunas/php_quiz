@@ -1,0 +1,10 @@
+{
+  "title": "In a shared hosting environment, session data can be read by PHP scripts written by any user. How can you prevent this? (Choose 2)",
+  "choices": {
+    "a": "Store session data in a different location with session.save_path.",
+    "b": "Store session data in a database.",
+    "c": "Enable safe_mode.",
+    "d": "Set session.name to something unique."
+  },
+  "answers": ["a", "b"]
+}

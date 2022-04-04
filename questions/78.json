@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass a {\n    public $val;\n}\n\nfunction renderVal(a $a)\n{\n    if ($a) {\n        echo $a->val;\n    }\n}\n\nrenderVal(null);",
+  "choices": {
+    "a": "A syntax error in the function declaration line",
+    "b": "An error, because null is not an instance of 'a'",
+    "c": "Nothing, because a null value is being passed to renderVal()",
+    "d": "NULL"
+  },
+  "answers": ["b"]
+}

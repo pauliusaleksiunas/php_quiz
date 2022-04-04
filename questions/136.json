@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following filtering techniques prevents all cross-site scripting (XSS) vulnerabilities?",
+  "choices": {
+    "a": "Strip all occurrences of the string <script.",
+    "b": "Strip all occurrences of the string javascript.",
+    "c": "Enable magic_quotes_gpc.",
+    "d": "None of the above."
+  },
+  "answers": ["d"]
+}

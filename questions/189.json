@@ -1,0 +1,11 @@
+{
+  "title": "How many elements does the array $matches from the following code contain?\n\n$str = \"The cat sat on the roof of their house.\";\n$matches = preg_split(\"/(the)/i\", $str, -1, PREG_SPLIT_DELIM_CAPTURE);",
+  "choices": {
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "7",
+    "e": "9"
+  },
+  "answers": ["d"]
+}

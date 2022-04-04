@@ -1,0 +1,10 @@
+{
+  "title": "Assuming UTF-8 encoding, what is the value of $count?\n\n$data = '$1A2';\n$count = strlen($data);",
+  "choices": {
+    "a": "0",
+    "b": "4",
+    "c": "5",
+    "d": "7"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What super-global should be used to access information about uploaded files via a POST request?",
+  "choices": {
+    "a": "$_SERVER",
+    "b": "$_ENV",
+    "c": "$_POST",
+    "d": "$_FILES",
+    "e": "$_GET"
+  },
+  "answers": ["d"]
+}

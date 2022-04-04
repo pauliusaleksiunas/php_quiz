@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following will NOT instantiate a DateTime object with the current timestamp?",
+  "choices": {
+    "a": "$date = new DateTime();",
+    "b": "$date = new DateTime('@' . time());",
+    "c": "$date = new DateTime('now');",
+    "d": "$date = new DateTime(time());"
+  },
+  "answers": ["d"]
+}

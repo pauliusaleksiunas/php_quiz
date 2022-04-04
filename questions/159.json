@@ -1,0 +1,12 @@
+{
+  "title": "What SimpleXML function is used to parse a file?",
+  "choices": {
+    "a": "simplexml_load_file()",
+    "b": "simplexml_load_string()",
+    "c": "load()",
+    "d": "loadFile()",
+    "e": "loadXML()",
+    "f": "None of the above."
+  },
+  "answers": ["a"]
+}

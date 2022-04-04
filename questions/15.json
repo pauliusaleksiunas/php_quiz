@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following will set a 10 seconds read timeout for a stream?",
+  "choices": {
+    "a": "ini_set(\"default_socket_timeout\", 10);",
+    "b": "stream_read_timeout($stream, 10);",
+    "c": "Specify the timeout as the 5th parameter to the fsockopen() function used to open a stream",
+    "d": "stream_set_timeout($stream, 10);",
+    "e": "None of the above"
+  },
+  "answers": ["d"]
+}

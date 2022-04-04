@@ -1,0 +1,10 @@
+{
+  "title": "Which options do you have in PHP to set the expiry date of a session?",
+  "choices": {
+    "a": "Set the session.duration directive in php.ini",
+    "b": "Set session cookie expiry date locally via session_set_cookie_params()",
+    "c": "Set session expiry date locally via session_cache_expire()",
+    "d": "None of the above"
+  },
+  "answers": ["d"]
+}

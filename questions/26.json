@@ -1,0 +1,11 @@
+{
+  "title": "Consider the following two files. When you run test.php, what would the output look like?\n\ntest.php:\n\ninclude \"MyString.php\";\nprint \",\";\nprint strlen(\"Hello world!\");\n\nMyString.php:\n\nnamespace MyFramework\\String;\nfunction strlen($str){\n    return \\strlen($str)*2;\n}\nprint strlen(\"Hello world!\");\n",
+  "choices": {
+    "a": "12,12",
+    "b": "12,24",
+    "c": "24,12",
+    "d": "24,24",
+    "e": "PHP Fatal error: Cannot redeclare strlen()"
+  },
+  "answers": ["c"]
+}

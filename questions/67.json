@@ -1,0 +1,10 @@
+{
+  "title": "Which class of HTTP status codes is used for server error conditions?",
+  "choices": {
+    "a": "2XX",
+    "b": "3XX",
+    "c": "4XX",
+    "d": "5XX"
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "When a browser requests an image identified by an img tag, it never sends a Cookie header.",
+  "choices": {
+    "a": "TRUE",
+    "b": "FALSE"
+  },
+  "answers": ["b"]
+}

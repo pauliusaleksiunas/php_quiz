@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nclass test\n{\n    public $value = 0;\n\n    function test()\n    {\n        $this->value = 1;\n    }\n\n    function __construct()\n    {\n        $this->value = 2;\n    }\n}\n\n$object = new test();\necho $object->value;",
+  "choices": {
+    "a": "2",
+    "b": "1",
+    "c": "0",
+    "d": "3",
+    "e": "No Output, PHP will generate an error message."
+  },
+  "answers": ["a"]
+}

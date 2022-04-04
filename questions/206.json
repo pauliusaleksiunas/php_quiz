@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following could be used to add a book to an existing SimpleXMLElement object stored in $library representing a collection of books?",
+  "choices": {
+    "a": "$library->addChild(new SimpleXMLElement(“title”, “Best book ever”))",
+    "b": "$library->children()->add(“title”, “Best book ever”)",
+    "c": "$library->xpath(new SimpleXMLElement(“title”, “Best book ever”))",
+    "d": "$library->addBook(“title”, “Best book ever”)",
+    "e": "$library->addChild(“title”, “Best book ever”)"
+  },
+  "answers": ["e"]
+}

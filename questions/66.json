@@ -1,0 +1,10 @@
+{
+  "title": "From your PHP application, how can you send the same header twice, but with different values?",
+  "choices": {
+    "a": "Set the second argument of the header() function to false",
+    "b": "PHP does that automatically",
+    "c": "You may only send a particular type of header once",
+    "d": "Use the header_add() function"
+  },
+  "answers": ["a"]
+}

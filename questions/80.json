@@ -1,0 +1,12 @@
+{
+  "title": "What is the output of the following code?\n\nfunction ratio($x1 = 10, $x2)\n{\n    if (isset ($x2)) {\n        return $x2 / $x1;\n    }\n}\necho ratio(0);",
+  "choices": {
+    "a": "0",
+    "b": "An integer overflow error",
+    "c": "A warning, because $x1 is not set",
+    "d": "A warning, because $x2 is not set",
+    "e": "A floating-point overflow error",
+    "f": "Nothing"
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "When retrieving data from URLs, what are valid ways to make sure all file_get_contents calls send a certain user agent string? (Choose 2)",
+  "choices": {
+    "a": "$default_opts = array('http'=>array('user_agent'=>\"My Cool Browser\"));\n   $default = stream_context_set_default($default_opts);",
+    "b": "stream_context_set_option(\"user_agent\", \"My Cool Browser\");",
+    "c": "ini_set('user_agent', \"My Cool Browser\");",
+    "d": "stream_context_set_option($context, \"http\", \"user_agent\", \"My Cool Browser\");"
+  },
+  "answers": ["a", "c"]
+}

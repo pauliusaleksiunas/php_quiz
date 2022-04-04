@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nfor ($i = 0; $i < 1.02; $i += 0.17) {\n    $a[$i] = $i;\n}\necho count($a);",
+  "choices": {
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "6",
+    "e": "7"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "When tracking upload progress with sessions,\nthe values of 2 INI settings are needed to determine the key in $_SESSION of the upload progress data.\nWhat are the INI settings? (Choose 2)",
+  "choices": {
+    "a": "session.upload_progress.file",
+    "b": "session.upload_progress.key",
+    "c": "session.upload_progress.prefix",
+    "d": "session.upload_progress.freq",
+    "e": "session.upload_progress.name"
+  },
+  "answers": ["c", "e"]
+}

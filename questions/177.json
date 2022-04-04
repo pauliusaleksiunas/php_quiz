@@ -1,0 +1,10 @@
+{
+  "title": "Given the following array:\n\n$a = array(28, 15, 77, 43);\n\nWhich function will remove the value 28 from $a?",
+  "choices": {
+    "a": "array_shift()",
+    "b": "array_pop()",
+    "c": "array_pull()",
+    "d": "array_unshift()"
+  },
+  "answers": ["a"]
+}

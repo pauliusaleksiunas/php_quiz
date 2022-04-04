@@ -1,0 +1,11 @@
+{
+  "title": "You need to escape special characters to use user input inside a regular expression. Which functions would you use? (Choose 2)",
+  "choices": {
+    "a": "addslashes()",
+    "b": "htmlentities()",
+    "c": "preg_quote()",
+    "d": "regex_quote()",
+    "e": "quote_meta()"
+  },
+  "answers": ["c", "e"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the result of the following code?\n\ndefine('PI', 3.14);\n\nclass T\n{\n    const PI = PI;\n}\n\nclass Math\n{\n    const PI = T::PI;\n}\n\necho Math::PI;",
+  "choices": {
+    "a": "Parse error",
+    "b": "3.14",
+    "c": "PI",
+    "d": "T::PI"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "The constructs for(), foreach(), and each() can all be used to iterate an object if the object...",
+  "choices": {
+    "a": "implements ArrayAccess",
+    "b": "implements Iterator",
+    "c": "implements Iterator and ArrayAccess",
+    "d": "None of the above"
+  },
+  "answers": ["c"]
+}

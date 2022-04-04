@@ -1,0 +1,11 @@
+{
+  "title": "Given the following code, what will the output be:\n\ntrait MyTrait\n{\n    private $abc = 1;\n\n    public function increment()\n    {\n        $this->abc++;\n    }\n\n    public function getValue()\n    {\n        return $this->abc;\n    }\n}\n\nclass MyClass\n{\n    use MyTrait;\n\n    public function incrementBy2()\n    {\n        $this->increment();\n        $this->abc++;\n    }\n}\n\n$c = new MyClass;\n$c->incrementBy2();\nvar_dump($c->getValue());",
+  "choices": {
+    "a": "Fatal error: Access to private variable MyTrait::$abc from context MyClass",
+    "b": "Notice: Undefined property MyClass::$abc",
+    "c": "int(2)",
+    "d": "int(3)",
+    "e": "NULL"
+  },
+  "answers": ["d"]
+}

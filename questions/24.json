@@ -1,0 +1,10 @@
+{
+  "title": "What would be the output of the following code?\n\nnamespace MyFramework\\DB;\nclass MyClass {\n    static function myName() {return __METHOD__;}\n}\nprint MyClass::myName();",
+  "choices": {
+    "a": "MyFramework\\DB\\myName",
+    "b": "MyFramework\\DB\\MyClass\\myName",
+    "c": "MyFramework\\DB\\MyClass::myName",
+    "d": "MyClass::myName"
+  },
+  "answers": ["c"]
+}

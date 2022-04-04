@@ -1,0 +1,10 @@
+{
+  "title": "Under what condition may HTTP headers be set from PHP if there is content echoed prior to the header function being used?",
+  "choices": {
+    "a": "headers_sent() returns true",
+    "b": "Output buffering is enabled",
+    "c": "The client supports local buffering",
+    "d": "The webserver uses preemptive mode"
+  },
+  "answers": ["b"]
+}

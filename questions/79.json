@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nfunction fibonacci(&$x1 = 0, &$x2 = 1)\n{\n    $result = $x1 + $x2;\n    $x1 = $x2;\n    $x2 = $result;\n    return $result;\n}\n\nfor ($i = 0; $i < 10; $i++) {\n    echo fibonacci() . ',';\n}",
+  "choices": {
+    "a": "An error",
+    "b": "1,1,1,1,1,1,1,1,1,1,",
+    "c": "1,1,2,3,5,8,13,21,34,55,",
+    "d": "Nothing"
+  },
+  "answers": ["b"]
+}

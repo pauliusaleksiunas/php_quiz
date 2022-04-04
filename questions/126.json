@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements about Reflection is correct?",
+  "choices": {
+    "a": "Reflection is an extension that can be disabled",
+    "b": "Reflection is a new extension present only in PHP 5.3+",
+    "c": "Reflection only allows to reflect on built-in classes",
+    "d": "Built-in classes can be reflected on command line using php --rc <classname>"
+  },
+  "answers": ["d"]
+}

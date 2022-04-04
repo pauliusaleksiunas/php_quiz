@@ -1,0 +1,11 @@
+{
+  "title": "You want to allow your users to submit HTML code in a form, which will then be\ndisplayed as real code and not affect your page layout. Which function do you apply\nto the text, when displaying it? (Choose 2)",
+  "choices": {
+    "a": "strip_tags()",
+    "b": "htmlentities()",
+    "c": "htmltidy()",
+    "d": "htmlspecialchars()",
+    "e": "showhtml()"
+  },
+  "answers": ["b", "d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Consider the following table data and PHP code. What is the outcome?\nTable data (table name \"users\" with primary key \"id\"):\n\nid name email\n------- ----------- -------------------\n1 anna  alpha@example.com\n2 betty beta@example.org\n3 clara gamma@example.net\n5 sue   sigma@example.info\n\nPHP code (assume the PDO connection is correctly established):\n\n$dsn = 'mysql:host=localhost;dbname=exam';\n$user = 'username';\n$pass = '********';\n$pdo = new PDO($dsn, $user, $pass);\ntry {\n    $cmd = \"INSERT INTO users (id, name, email) VALUES (:id, :name, :ema\nil)\";\n    $stmt = $pdo->prepare($cmd);\n    $stmt->bindValue('id', 1);\n    $stmt->bindValue('name', 'anna');\n    $stmt->bindValue('email', 'alpha@example.com');\n    $stmt->execute();\n    echo \"Success!\";\n} catch (PDOException $e) {\n    echo \"Failure!\";\n    throw $e; \n}",
+  "choices": {
+    "a": "The INSERT will succeed and the user will see the \"Success!\" message.",
+    "b": "The INSERT will fail because of a primary key violation, and the user will see the\n\"Success!\" message.",
+    "c": "The INSERT will fail because of a primary key violation, and the user will see a PDO warning message.",
+    "d": "The INSERT will fail because of a primary key violation, and the user will see the \"Failure!\" message."
+  },
+  "answers": ["b"]
+}

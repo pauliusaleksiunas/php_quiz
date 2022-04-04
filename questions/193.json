@@ -1,0 +1,11 @@
+{
+  "title": "What is the return value of the following code:\n\nsubstr_compare(\"foobar\", \"bar\", 3);",
+  "choices": {
+    "a": "-1",
+    "b": "1",
+    "c": "TRUE",
+    "d": "0",
+    "e": "FALSE"
+  },
+  "answers": ["d"]
+}

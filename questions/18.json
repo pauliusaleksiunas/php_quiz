@@ -1,0 +1,10 @@
+{
+  "title": "What can prevent PHP from being able to open a file on the hard drive (Choose 2)?",
+  "choices": {
+    "a": "File system permissions",
+    "b": "File is outside of open_basedir",
+    "c": "File is inside the /tmp directory.",
+    "d": "PHP is running in CGI mode."
+  },
+  "answers": ["a", "b"]
+}

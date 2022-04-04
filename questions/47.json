@@ -1,0 +1,10 @@
+{
+  "title": "Given a PHP value, which sample shows how to convert the value to JSON?",
+  "choices": {
+    "a": "$string = json_encode($value);",
+    "b": "$string = Json::encode($value);",
+    "c": "$json = new Json($value); $string = $json->__toString();",
+    "d": "$value = (object) $value; $string = $value->__toJson();\n"
+  },
+  "answers": ["a"]
+}

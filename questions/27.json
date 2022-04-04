@@ -1,0 +1,10 @@
+{
+  "title": "Which line of code can be used to replace the INSERT comment in order to output \"hello\"?\n\nclass C\n{\n    public $ello = 'ello';\n    public $c;\n    public $m;\n\n    function __construct($y)\n    {\n        $this->c = static function ($f) {\n            // INSERT LINE OF CODE HERE\n        };\n        $this->m = function () {\n            return \"h\";\n        };\n    }\n}\n\n$x = new C(\"h\");\n$f = $x->c;\necho $f($x->m);",
+  "choices": {
+    "a": "return $this->m() . \"ello\";",
+    "b": "return $f() . \"ello\";",
+    "c": "return \"h\". $this->ello;",
+    "d": "return $y . \"ello\";"
+  },
+  "answers": ["b"]
+}

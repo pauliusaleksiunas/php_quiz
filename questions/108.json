@@ -1,0 +1,11 @@
+{
+  "title": "What types of HTTP authentication are supported by PHP? (Choose 2)",
+  "choices": {
+    "a": "Basic",
+    "b": "Advanced",
+    "c": "Strict",
+    "d": "Digest",
+    "e": "Realm"
+  },
+  "answers": ["a", "d"]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Which of the following tasks can be achieved by using magic methods? (Choose 3)",
+  "choices": {
+    "a": "Initializing or uninitializing object data",
+    "b": "Creating a new stream wrapper",
+    "c": "Creating an iterable object",
+    "d": "Processing access to undefined methods or properties",
+    "e": "Overloading operators like +, *, etc.",
+    "f": "Converting objects to string representation"
+  },
+  "answers": ["a", "d", "f"]
+}

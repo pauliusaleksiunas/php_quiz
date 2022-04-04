@@ -1,0 +1,11 @@
+{
+  "title": "What is the length of a string returned by: md5(rand(), TRUE);",
+  "choices": {
+    "a": "Depends on the value returned by rand() function",
+    "b": "32",
+    "c": "24",
+    "d": "16",
+    "e": "64"
+  },
+  "answers": ["d"]
+}

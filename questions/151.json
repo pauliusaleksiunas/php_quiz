@@ -1,0 +1,11 @@
+{
+  "title": "What method can be used to find the tag <any> via the DOM extension?",
+  "choices": {
+    "a": "getElementById()",
+    "b": "getElementsByTagName()",
+    "c": "getElementsByTagNameNS()",
+    "d": "getElementByName()",
+    "e": "findTag()"
+  },
+  "answers": ["b"]
+}

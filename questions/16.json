@@ -1,0 +1,10 @@
+{
+  "title": "What function allows resizing of PHP's file write buffer?",
+  "choices": {
+    "a": "ob_start()",
+    "b": "set_write_buffer()",
+    "c": "stream_set_write_buffer()",
+    "d": "Change the output_buffering INI setting via ini_set() function"
+  },
+  "answers": ["c"]
+}

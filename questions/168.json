@@ -1,0 +1,10 @@
+{
+  "title": "After performing the following operations:\n\n$a = array('a', 'b', 'c');\n$a = array_keys(array_flip($a));\n\nWhat will be the value of $a?",
+  "choices": {
+    "a": "array('c', 'b', 'a')",
+    "b": "array(2, 1, 0)",
+    "c": "array('a', 'b', 'c')",
+    "d": "None of the above"
+  },
+  "answers": ["c"]
+}

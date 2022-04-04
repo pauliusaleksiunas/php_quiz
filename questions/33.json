@@ -1,0 +1,10 @@
+{
+  "title": "Late static binding is used in PHP to:",
+  "choices": {
+    "a": "Load dynamic libraries and extensions at runtime",
+    "b": "Use caller class information provided in static method call",
+    "c": "Resolve undefined class names by automatically including needed files",
+    "d": "Find proper method to call according to the call arguments"
+  },
+  "answers": ["b"]
+}

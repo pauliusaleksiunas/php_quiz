@@ -1,0 +1,10 @@
+{
+  "title": "What will be the output of the following code?\n\n$a = array(0, 1, 2 => array(3, 4));\n$a[3] = array(4, 5);\necho count($a, 1);",
+  "choices": {
+    "a": "4",
+    "b": "5",
+    "c": "8",
+    "d": "None of the above"
+  },
+  "answers": ["c"]
+}

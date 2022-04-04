@@ -1,0 +1,10 @@
+{
+  "title": "You work for a shared hosting provider, and your supervisor asks you to disable user scripts to dynamically load PHP extensions using the dl() function. How can you do this? (Choose 2)",
+  "choices": {
+    "a": "Set enable_dl to Off in the server's php.ini configuration file.",
+    "b": "Add dl to the current value of disable_functions in the server's php.ini configuration file.",
+    "c": "Add dl to the current value of disable_classes in the server's php.ini configuration file.",
+    "d": "Write a custom function called dl() , save it under the name prepend.inc and then set the auto_prepend_file directive to prepend.inc in php.ini."
+  },
+  "answers": ["a", "b"]
+}

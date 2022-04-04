@@ -1,0 +1,9 @@
+{
+  "title": "What information can be used to reliably determine the type of an uploaded file?",
+  "choices": {
+    "a": "MIME type",
+    "b": "File name extension",
+    "c": "Contents of the file"
+  },
+  "answers": ["c"]
+}

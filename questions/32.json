@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nclass Base\n{\n    protected static function whoami()\n    {\n        echo \"Base \";\n    }\n\n    public static function whoareyou()\n    {\n        static::whoami();\n    }\n}\n\nclass A extends Base\n{\n    public static function test()\n    {\n        Base::whoareyou();\n        self::whoareyou();\n        parent::whoareyou();\n        A::whoareyou();\n        static::whoareyou();\n    }\n\n    public static function whoami()\n    {\n        echo \"A \";\n    }\n}\n\nclass B extends A\n{\n    public static function whoami()\n    {\n        echo \"B \";\n    }\n}\n\nB::test();",
+  "choices": {
+    "a": "B B B B B",
+    "b": "Base A Base A B",
+    "c": "Base B B A B",
+    "d": "Base B A A B"
+  },
+  "answers": ["c"]
+}

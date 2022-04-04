@@ -1,0 +1,10 @@
+{
+  "title": "Consider the following table data and PHP code. What is the outcome?\nTable data (table name \"users\" with primary key \"id\"):\n\nid name email\n------- ----------- -------------------\n1 anna  alpha@example.com\n2 betty beta@example.org\n3 clara gamma@example.net\n5 sue   sigma@example.info\n\nPHP code (assume the PDO connection is correctly established):\n\n$dsn = 'mysql:host=localhost;dbname=exam';\n$user = 'username';\n$pass = '********';\n$pdo = new PDO($dsn, $user, $pass);\n$cmd = \"SELECT * FROM users WHERE id = :id\";\n$stmt = $pdo->prepare($cmd);\n$id = 3;\n$stmt->bindParam('id', $id);\n$stmt->execute();\n$stmt->bindColumn(3, $result);\n$row = $stmt->fetch(PDO::FETCH_BOUND);",
+  "choices": {
+    "a": "The database will return no rows.",
+    "b": "The value of $row will be an array.",
+    "c": "The value of $result will be empty.",
+    "d": "The value of $result will be 'gamma@example.net'."
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Which parts of the text are matched in the following regular expression?\n\n$text = <<<EOT\nThe big bang bonged under the bung.\nEOT;\npreg_match_all('@b.n?g@', $text, $matches);",
+  "choices": {
+    "a": "bang bong bung",
+    "b": "bang bonged bung",
+    "c": "big bang bong bung",
+    "d": "big bang bung"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following expressions will evaluate to a random value from an array below?\n\n$array = array(\"Sue\",\"Mary\",\"John\",\"Anna\");",
+  "choices": {
+    "a": "array_rand($array);",
+    "b": "array_rand($array, 1);",
+    "c": "shuffle($array);",
+    "d": "$array[array_rand($array)];",
+    "e": "array_values($array, ARRAY_RANDOM);"
+  },
+  "answers": ["d"]
+}

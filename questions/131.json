@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following code snippets is correct? (Choose 2)",
+  "choices": {
+    "a": "interface Drawable {\n    abstract function draw();\n}",
+    "b": "interface Point {\n    function getX();\n    function getY();\n}",
+    "c": "interface Line extends Point {\n    function getX2();\n    function getY2();\n}",
+    "d": "interface Circle implements Point {\n    function getRadius();\n}"
+  },
+  "answers": ["b", "c"]
+}

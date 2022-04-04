@@ -1,0 +1,9 @@
+{
+  "title": "Consider the following code. What can be said about the call to file_get_contents?\n\n$getdata = \"foo=bar\";\n$opts = array('http' => array(\n    'method' => 'POST',\n    'header' => 'Content-type: application/x-www-form-urlencoded',\n    'content' => $getdata\n));\n$context = stream_context_create($opts);\n$result = file_get_contents('http://example.com/submit.php', false, $context);",
+  "choices": {
+    "a": "A GET request will be performed on http://example.com/submit.php",
+    "b": "A POST request will be performed on http://example.com/submit.php",
+    "c": "An error will be displayed"
+  },
+  "answers": ["b"]
+}

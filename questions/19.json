@@ -1,0 +1,10 @@
+{
+  "title": "What purpose do namespaces fulfill?",
+  "choices": {
+    "a": "Encapsulation",
+    "b": "Alternative to classes",
+    "c": "Improved performance",
+    "d": "All of the above"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "What will the following code print out?\n\n$str = '&#10004; one of the following';\necho str_replace('&#10004;', 'Check', $str);",
+  "choices": {
+    "a": "Check one of the following",
+    "b": "one of the following",
+    "c": "&#10004; one of the following"
+  },
+  "answers": ["a"]
+}

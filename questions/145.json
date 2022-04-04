@@ -1,0 +1,11 @@
+{
+  "title": "Transactions are used to...",
+  "choices": {
+    "a": "guarantee high performance",
+    "b": "secure data consistency",
+    "c": "secure access to the database",
+    "d": "reduce the database server overhead",
+    "e": "reduce code size in PHP"
+  },
+  "answers": ["b"]
+}

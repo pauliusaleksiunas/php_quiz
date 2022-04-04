@@ -1,0 +1,11 @@
+{
+  "title": "How can a SimpleXML object be converted to a DOM object?",
+  "choices": {
+    "a": "dom_import_simplexml()",
+    "b": "dom_export_simplexml()",
+    "c": "simplexml_import_dom()",
+    "d": "SimpleXML2Dom()",
+    "e": "None of the above."
+  },
+  "answers": ["a"]
+}

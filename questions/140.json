@@ -1,0 +1,11 @@
+{
+  "title": "Which function can NOT help prevent cross-site scripting? (Choose 2)",
+  "choices": {
+    "a": "addslashes()",
+    "b": "htmlentities()",
+    "c": "htmlspecialchars()",
+    "d": "strip_tags()",
+    "e": "quotemeta()"
+  },
+  "answers": ["a", "e"]
+}

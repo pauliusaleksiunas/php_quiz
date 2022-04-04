@@ -1,0 +1,11 @@
+{
+  "title": "An object can be counted with count() and sizeof() if it...",
+  "choices": {
+    "a": "implements ArrayAccess",
+    "b": "has a public __count() method",
+    "c": "was cast to an object from an array",
+    "d": "implements Countable",
+    "e": "None of the above"
+  },
+  "answers": ["d"]
+}

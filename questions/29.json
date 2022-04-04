@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n\n$f = function () {\n    return \"hello\";\n};\necho gettype($f);",
+  "choices": {
+    "a": "hello",
+    "b": "string",
+    "c": "object",
+    "d": "function"
+  },
+  "answers": ["c"]
+}

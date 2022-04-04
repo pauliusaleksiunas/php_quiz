@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following are NOT acceptable ways to create a secure password hash in PHP? (Choose 2)",
+  "choices": {
+    "a": "md5()",
+    "b": "hash_pbkdf2()",
+    "c": "password_hash()",
+    "d": "crypt()",
+    "e": "openssl_digest()"
+  },
+  "answers": ["a", "e"]
+}

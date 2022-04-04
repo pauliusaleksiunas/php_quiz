@@ -1,0 +1,10 @@
+{
+  "title": "Which interfaces could class C implement in order to allow each statement in the following code to work? (Choose 2)\n\n$obj = new C();\nforeach ($obj as $x => $y) {\n    echo $x, $y;\n}",
+  "choices": {
+    "a": "Iterator",
+    "b": "ArrayAccess",
+    "c": "IteratorAggregate",
+    "d": "ArrayObject"
+  },
+  "answers": ["a", "c"]
+}

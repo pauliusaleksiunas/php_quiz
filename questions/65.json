@@ -1,0 +1,10 @@
+{
+  "title": "What content-type is required when sending an HTTP POST using JavaScript to ensure that PHP can access the data?",
+  "choices": {
+    "a": "application/x-www-form-urlencoded",
+    "b": "http/post",
+    "c": "text/html",
+    "d": "object/multipart-formdata"
+  },
+  "answers": ["a"]
+}

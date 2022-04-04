@@ -1,0 +1,12 @@
+{
+  "title": "What is the output of the following code?\n\necho \"1\" + 2 * \"0x02\";",
+  "choices": {
+    "a": "1",
+    "b": "3",
+    "c": "5",
+    "d": "20",
+    "e": "7",
+    "f": "Notice: A non well formed numeric value encountered"
+  },
+  "answers": ["f"]
+}

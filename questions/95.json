@@ -1,0 +1,11 @@
+{
+  "title": "In the following code, which line should be changed so it outputs the number 2:\n\nclass A\n{\n    protected $x = array(); /* A */\n    public function getX() /* B */\n    {\n        return $this->x; /* C */\n    }\n}\n\n$a = new A(); /* D */\narray_push($a->getX(), \"one\");\narray_push($a->getX(), \"two\");\necho count($a->getX());",
+  "choices": {
+    "a": "No changes needed, the code would output 2 as is",
+    "b": "Line A, to: protected &$x = array();",
+    "c": "Line B, to: public function &getX() {",
+    "d": "Line C, to: return &$this->x;",
+    "e": "Line D, to: $a =& new A();"
+  },
+  "answers": ["c"]
+}

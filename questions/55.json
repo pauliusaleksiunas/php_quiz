@@ -1,0 +1,8 @@
+{
+  "title": "What is the output of the following code?\n\nclass Foo implements ArrayAccess\n{\n    function offsetExists($k)\n    {\n        return true;\n    }\n\n    function offsetGet($k)\n    {\n        return 'a';\n    }\n\n    function offsetSet($k, $v)\n    {\n    }\n\n    function offsetUnset($k)\n    {\n    }\n}\n\n$x = new Foo();\necho array_key_exists('foo', $x) ? 'true' : 'false';",
+  "choices": {
+    "a": "true",
+    "b": "false"
+  },
+  "answers": ["b"]
+}

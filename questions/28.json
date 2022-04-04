@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\nfunction z($x)\n{\n    return function ($y) use ($x) {\n        return str_repeat($y, $x);\n    };\n}\n\n$a = z(2);\n$b = z(3);\necho $a(3) . $b(2);",
+  "choices": {
+    "a": "22333",
+    "b": "33222",
+    "c": "33322",
+    "d": "222333"
+  },
+  "answers": ["b"]
+}

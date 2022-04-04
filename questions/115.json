@@ -1,0 +1,11 @@
+{
+  "title": "Which methods can be used to overload object properties? (Choose 2)",
+  "choices": {
+    "a": "set(), get()",
+    "b": "__set(), __get()",
+    "c": "__put(), __receive(), __exists()",
+    "d": "set(), get(), isset()",
+    "e": "__isset(), __unset()"
+  },
+  "answers": ["b", "e"]
+}

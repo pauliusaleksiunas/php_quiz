@@ -1,0 +1,11 @@
+{
+  "title": "Is the following code vulnerable to SQL Injection ($mysqli is an instance of the MySQLi class)?\n\n$age = $mysqli->real_escape_string($_GET['age']);\n$name = $mysqli->real_escape_string($_GET['name']);\n$query = \"SELECT * FROM `table` WHERE name LIKE '$name' AND age = $age\";\n$results = $mysqli->query($query);",
+  "choices": {
+    "a": "No, the code is fully protected from SQL Injection.",
+    "b": "Yes, because the $name variable is improperly escaped.",
+    "c": "Yes, because the $name variable and the $age variable is improperly escaped.",
+    "d": "Yes, because the $age variable is improperly escaped.",
+    "e": "Yes, because you cannot prevent SQL Injection when using MySQLi"
+  },
+  "answers": ["d"]
+}

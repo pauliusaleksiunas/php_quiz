@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following functions are used to escape data within the context of HTML? (Choose 2)",
+  "choices": {
+    "a": "htmlentities()",
+    "b": "addslashes()",
+    "c": "stripslashes()",
+    "d": "strip_tags()",
+    "e": "htmlspecialchars()"
+  },
+  "answers": ["a", "e"]
+}

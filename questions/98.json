@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following statements about anonymous functions in PHP are NOT true? (Choose 2)",
+  "choices": {
+    "a": "Anonymous functions can be bound to objects",
+    "b": "Anonymous functions created within object context are always bound to that object",
+    "c": "Assigning closure to a property of an object binds it to that object",
+    "d": "Methods bind() and bindTo() of the Closure object provide means to create closures with different binding and scope",
+    "e": "Binding defines the value of $this and the scope for a closure"
+  },
+  "answers": ["b", "c"]
+}

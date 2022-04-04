@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following parts must a XML document have in order to be well-formed?",
+  "choices": {
+    "a": "An XML declaration",
+    "b": "A root element",
+    "c": "A specified encoding",
+    "d": "A reference to either a DTD or an XML schema definition"
+  },
+  "answers": ["b"]
+}

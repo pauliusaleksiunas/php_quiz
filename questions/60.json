@@ -1,0 +1,9 @@
+{
+  "title": "Given a php.ini setting of\ndefault_charset = utf-8\nwhat will the following code print in the browser?\n\nheader('Content-Type: text/html; charset=iso-8859-1');\necho '&#9986;&#10004;&#10013;';\n",
+  "choices": {
+    "a": "Three Unicode characters, or unreadable text, depending on the browser",
+    "b": "&#9986;&#10004;&#10013;",
+    "c": "A blank line due to charset mismatch"
+  },
+  "answers": ["a"]
+}

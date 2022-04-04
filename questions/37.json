@@ -1,0 +1,11 @@
+{
+  "title": "Consider the following code. What change must be made to the class for the code to work as written?\n\nclass Magic\n{\n    protected $v = array(\"a\" => 1, \"b\" => 2, \"c\" => 3);\n\n    public function __get($v)\n    {\n        return $this->v[$v];\n    }\n}\n\n$m = new Magic();\n$m->d[] = 4;\necho $m->d[0];",
+  "choices": {
+    "a": "Nothing, this code works just fine.",
+    "b": "Add __set method doing $this->v[$var] = $val",
+    "c": "Rewrite __get as: public function __get(&$v)",
+    "d": "Rewrite __get as: public function &__get($v)",
+    "e": "Make __get method static"
+  },
+  "answers": ["d"]
+}

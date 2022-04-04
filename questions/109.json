@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following items in the $_SERVER superglobal are important for\nauthenticating the client when using HTTP Basic authentication? (Choose 2)",
+  "choices": {
+    "a": "PHP_AUTH_TYPE",
+    "b": "PHP_AUTH_PASSWORD",
+    "c": "PHP_AUTH_DIGEST",
+    "d": "PHP_AUTH_PW",
+    "e": "PHP_AUTH_USER"
+  },
+  "answers": ["d", "e"]
+}

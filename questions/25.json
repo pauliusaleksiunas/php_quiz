@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following methods are available to limit the amount of resources available to PHP through php.ini? (Choose 2)",
+  "choices": {
+    "a": "Limit the amount of memory a script can consume",
+    "b": "Limit the total amount of memory PHP uses on the entire server",
+    "c": "Limit the maximum execution time of a script",
+    "d": "Limit the maximum number of concurrent PHP processes",
+    "e": "Limit the maximum number of concurrent PHP threads"
+  },
+  "answers": ["a", "c"]
+}

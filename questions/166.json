@@ -1,0 +1,10 @@
+{
+  "title": "What DOM method is used to load HTML files?",
+  "choices": {
+    "a": "load()",
+    "b": "loadXML()",
+    "c": "loadHTML()",
+    "d": "loadHTMLFile()"
+  },
+  "answers": ["d"]
+}

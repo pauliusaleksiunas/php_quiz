@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following is NOT a requirement for file uploads to work?",
+  "choices": {
+    "a": "The PHP directive file_uploads must be set to On\n",
+    "b": "The form's method attribute must be set to \"post\"",
+    "c": "The form must include a hidden input element with the name set to \"MAX_FILE_SIZE\"",
+    "d": "The form's enctype attribute must be set to \"multipart/form-data\""
+  },
+  "answers": ["c"]
+}

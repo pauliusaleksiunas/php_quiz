@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following does NOT help to protect against session hijacking and fixation attacks?",
+  "choices": {
+    "a": "Use SSL and set the $secure cookie parameter to true.",
+    "b": "Set the session.use_only_cookies php.ini parameter to 1.",
+    "c": "Set the session.cookie_lifetime php.ini parameter to 0.",
+    "d": "Protect against XSS vulnerabilities in the application.",
+    "e": "Rotate the session id on successful login and logout using session_regenerate_id()"
+  },
+  "answers": ["c"]
+}

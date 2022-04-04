@@ -1,0 +1,11 @@
+{
+  "title": "Which sentence describes the following regular expression match?\n\npreg_match('/^\\d+(?:\\.[0-9]+)?$/', $test);",
+  "choices": {
+    "a": "It matches float numbers with thousand seperators.",
+    "b": "It matches float numbers without thousand seperators.",
+    "c": "It matches binary integer numbers.",
+    "d": "It matches any string.",
+    "e": "It does not match anything"
+  },
+  "answers": ["b"]
+}

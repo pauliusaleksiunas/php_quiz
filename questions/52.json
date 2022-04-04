@@ -1,0 +1,10 @@
+{
+  "title": "Given the following DateTime objects, what can you use to compare the two dates and indicate that $date2 is the later of the two dates?\n\n$date1 = new DateTime('2014-02-03');\n$date2 = new DateTime('2014-03-02');",
+  "choices": {
+    "a": "$date2 > $date1",
+    "b": "$date2 < $date1",
+    "c": "$date1->diff($date2) < 0",
+    "d": "$date1->diff($date2) > 0"
+  },
+  "answers": ["a"]
+}

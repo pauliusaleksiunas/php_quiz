@@ -1,0 +1,10 @@
+{
+  "title": "When a class is defined as final it:",
+  "choices": {
+    "a": "Can no longer be extended by other classes.",
+    "b": "Means methods in the class are not over-loadable.",
+    "c": "Cannot be defined as such, final is only applicable to object methods.",
+    "d": "Cannot be instantiated."
+  },
+  "answers": ["a"]
+}

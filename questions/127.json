@@ -1,0 +1,11 @@
+{
+  "title": "What is the name of the PHP function used to automatically load non-yet defined classes?",
+  "choices": {
+    "a": "autoload()",
+    "b": "__autoload()",
+    "c": "__catch()",
+    "d": "load()",
+    "e": "loadClass()"
+  },
+  "answers": ["b"]
+}

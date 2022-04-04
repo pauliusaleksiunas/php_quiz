@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements is correct?",
+  "choices": {
+    "a": "Interfaces can extend only one interface",
+    "b": "Interfaces can extend more than one interface",
+    "c": "Interfaces can inherit a method from different interfaces",
+    "d": "Interfaces can redeclare inherited methods"
+  },
+  "answers": ["b"]
+}

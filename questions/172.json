@@ -1,0 +1,11 @@
+{
+  "title": "What will be the result of the following operation?\n\narray_combine(array(\"A\",\"B\",\"C\"), array(1,2,3));",
+  "choices": {
+    "a": "array(\"A\",\"B\",\"C\",1,2,3)",
+    "b": "array(1,2,3,\"A\",\"B\",C\")",
+    "c": "array(\"A\"=>1,\"B\"=>2,\"C\"=>3)",
+    "d": "array(1=>\"A\",2=>\"B\",3=>\"C\")",
+    "e": "array(1,2,3)"
+  },
+  "answers": ["c"]
+}

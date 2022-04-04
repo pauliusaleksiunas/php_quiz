@@ -1,0 +1,11 @@
+{
+  "title": "How do you allow the caller to submit a variable number of arguments to a function?",
+  "choices": {
+    "a": "Using a prototype like function test(... $parameters).",
+    "b": "Using a prototype like function test() and the function func_get_args() inside the function body.",
+    "c": "Using a prototype like function test($parameters[]).",
+    "d": "Using a prototype like function test() and the function get_variable_args() inside the function body.",
+    "e": "This is not possible in PHP."
+  },
+  "answers": ["b"]
+}

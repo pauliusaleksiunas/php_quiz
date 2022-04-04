@@ -1,0 +1,10 @@
+{
+  "title": "Which technique should be used to speed up joins without changing their results?",
+  "choices": {
+    "a": "Add indices on joined columns",
+    "b": "Add a WHERE clause",
+    "c": "Add a LIMIT clause",
+    "d": "Use an inner join"
+  },
+  "answers": ["a"]
+}

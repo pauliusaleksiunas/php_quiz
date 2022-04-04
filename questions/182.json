@@ -1,0 +1,10 @@
+{
+  "title": "Which elements does the array returned by the function pathinfo() contain?",
+  "choices": {
+    "a": "root, dir, file",
+    "b": "dirname, filename, fileextension",
+    "c": "dirname, basename, extension",
+    "d": "path, file"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\necho 0x33, ' monkeys sit on ', 011, ' trees.';",
+  "choices": {
+    "a": "33 monkeys sit on 11 trees.",
+    "b": "51 monkeys sit on 9 trees.",
+    "c": "monkeys sit on trees.",
+    "d": "0x33 monkeys sit on 011 trees."
+  },
+  "answers": ["b"]
+}

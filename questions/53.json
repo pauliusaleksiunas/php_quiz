@@ -1,0 +1,10 @@
+{
+  "title": "Given the following DateTime object, which sample will NOT alter the date to the value '2014-02-15'?\n\n$date = new DateTime('2014-03-15');",
+  "choices": {
+    "a": "$date->sub(new DateInterval('P1M'));",
+    "b": "$date->setDate(2014, 2, 15);",
+    "c": "$date->modify('-1 month');",
+    "d": "$date->diff(new DateInterval('-P1M'));"
+  },
+  "answers": ["d"]
+}
