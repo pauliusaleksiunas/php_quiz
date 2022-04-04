@@ -1,5 +1,5 @@
 {
-  "title": "An HTML form contains this form element:\n\n\n<input type=\"image\" name=\"myImage\" src=\"image.png\" />\n\nThe user clicks on the image to submit the form. How can you now access the relative coordinates of the mouse click?",
+  "title": "An HTML form contains this form element:\n\n<input type=\"image\" name=\"myImage\" src=\"image.png\" />\n\nThe user clicks on the image to submit the form. How can you now access the relative coordinates of the mouse click?",
   "choices": {
     "a": "$_FILES['myImage']['x'] and $_FILES['myImage']['y']",
     "b": "$_POST['myImage']['x'] and $_POST['myImage']['y']",

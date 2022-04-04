@@ -1,5 +1,5 @@
 {
-  "title": "What DOMElement method should be used to check for availability of a non- namespaced attribute?",
+  "title": "What DOMElement method should be used to check for availability of a non-namespaced attribute?",
   "choices": {
     "a": "getAttributeNS()",
     "b": "getAttribute()",
