@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$list = new SplStack();\n$list->push(\"a\");\n$list->push(\"b\");\n$list->push(\"c\");\n$list->rewind();\necho $list->pop();",
+  "choices": {
+    "a": "b",
+    "b": "Array",
+    "c": "Object",
+    "d": "c",
+    "e": "a"
+  },
+  "answers": ["d"]
+}

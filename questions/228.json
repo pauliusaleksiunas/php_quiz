@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of:\n\n$a = \"0\";\necho strlen($a);\necho empty($a) ? $a : 5;\necho $a ?: 5;",
+  "choices": {
+    "a": "105",
+    "b": "100",
+    "c": "050",
+    "d": "005",
+    "e": "150"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What would be the output of this script?\n\nob_start();\necho \"dreaming\";\n$ob = ob_get_contents();\necho strlen($ob);\nob_flush();",
+  "choices": {
+    "a": "dreaming",
+    "b": "dreaming8",
+    "c": "8",
+    "d": "dreaming8dreaming8"
+  },
+  "answers": ["b"]
+}

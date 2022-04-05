@@ -1,0 +1,13 @@
+{
+  "title": "Which of the following are valid constant names? (Choose 3)",
+  "choices": {
+    "a": "R7yu",
+    "b": "9tur8UH4",
+    "c": "8rutil",
+    "d": "AEN",
+    "e": "111",
+    "f": "ablwesc_99",
+    "g": "YU-8"
+  },
+  "answers": ["a", "d", "f"]
+}

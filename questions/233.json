@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of:\n\n$a = 10;\necho strlen($a) . count($a);\ndo {\n    echo $a . \"elephpant \";\n    $a++;\n} while ($a <= 1);",
+  "choices": {
+    "a": "2110elephpant",
+    "b": "12",
+    "c": "1210elephpant",
+    "d": "21",
+    "e": "10elephpant"
+  },
+  "answers": ["a"]
+}

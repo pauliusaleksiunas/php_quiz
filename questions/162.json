@@ -1,5 +1,5 @@
 {
-  "title": "How can the id attribute of the 2nd baz element from the XML string below be retrieved from the SimpleXML object found inside $xml?\n\n<?xml version='1.0'?>\n<foo><bar><baz id=\"1\">One</baz><baz id=\"2\">Two</baz></bar>\n</foo>",
+  "title": "How can the id attribute of the 2nd baz element from the XML string below be retrieved from the SimpleXML object found inside $xml?\n\n<?xml version='1.0'?>\n<foo>\n    <bar>\n        <baz id=\"1\">One</baz>\n        <baz id=\"2\">Two</baz>\n    </bar>\n</foo>",
   "choices": {
     "a": "$xml->getElementById('2');",
     "b": "$xml->foo->bar->baz[2]['id']",

@@ -1,0 +1,13 @@
+{
+  "title": "Which of the following are configuration settings for PHP? (choose 2)",
+  "choices": {
+    "a": "url_fopen_allow",
+    "b": "url_include_allow",
+    "c": "allow_open_url",
+    "d": "allow_url_include",
+    "e": "include_fopen_dir",
+    "f": "open_url_dir",
+    "g": "open_basedir"
+  },
+  "answers": ["d", "g"]
+}

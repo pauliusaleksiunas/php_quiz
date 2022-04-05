@@ -1,0 +1,11 @@
+{
+  "title": "What does status code 403 indicate?",
+  "choices": {
+    "a": "Forbidden",
+    "b": "Resource not found",
+    "c": "Not modified",
+    "d": "403 is not a valid status code",
+    "e": "Moved permanently"
+  },
+  "answers": ["a"]
+}

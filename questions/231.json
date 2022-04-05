@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$a = 42 & 05 + 17;\necho $a;",
+  "choices": {
+    "a": "17",
+    "b": "0",
+    "c": "2",
+    "d": "64",
+    "e": "10"
+  },
+  "answers": ["c"]
+}

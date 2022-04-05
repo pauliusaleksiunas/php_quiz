@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$a = \"a, b,c, d, e f, g\";\n$b = array_merge(explode(', ', $a), array(\"a\", \"b\"));\necho count($b);",
+  "choices": {
+    "a": "9",
+    "b": "7",
+    "c": "5",
+    "d": "3",
+    "e": "An error, because $a is not an array"
+  },
+  "answers": ["b"]
+}

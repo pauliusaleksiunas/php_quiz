@@ -1,0 +1,11 @@
+{
+  "title": "What is PDO::query() equivalent to?",
+  "choices": {
+    "a": "execute(), fetch()",
+    "b": "execute(), fetch()",
+    "c": "fetch(), execute()",
+    "d": "exec(), fetch()",
+    "e": "prepare(), execute(), fetch()"
+  },
+  "answers": ["e"]
+}

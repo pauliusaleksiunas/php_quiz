@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following?\n\n$a = 7;\n$b = 4;\nfunction b($a, $b)\n{\n    global $a, $b;\n    $a += 7;\n    $a++;\n    $b += $a;\n    return true;\n}\n\necho $b, $a;",
+  "choices": {
+    "a": "1419",
+    "b": "74",
+    "c": "1519",
+    "d": "1915",
+    "e": "47"
+  },
+  "answers": ["e"]
+}

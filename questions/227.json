@@ -1,0 +1,8 @@
+{
+  "title": "Is the following valid PHP code?\n\n<php>\necho 'There\\'s a worm in my apple';\n</php>}",
+  "choices": {
+    "a": "Yes",
+    "b": "No"
+  },
+  "answers": ["b"]
+}

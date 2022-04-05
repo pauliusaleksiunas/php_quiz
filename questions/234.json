@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of this code:\n\nfunction c($a, $b = 1, $c)\n{\n    return array($c, $a, $b);\n}\n\n[$a, $b, $c] = c(1, 2, 3);\necho $b;",
+  "choices": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+  },
+  "answers": ["a"]
+}

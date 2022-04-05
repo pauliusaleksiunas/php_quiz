@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following functions would be a valid way to create an array containing items from three existing arrays?",
+  "choices": {
+    "a": "array_merge()",
+    "b": "array_combine()",
+    "c": "array_splice()",
+    "d": "array_keys()",
+    "e": "array_intersect()"
+  },
+  "answers": ["a"]
+}

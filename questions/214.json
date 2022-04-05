@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$pattern = '/[a-z]{4} /';\n$string = 'Mary had a little lamb';\n$matches = preg_match($pattern, $string);\nprint_r($matches);",
+  "choices": {
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4"
+  },
+  "answers": ["a"]
+}

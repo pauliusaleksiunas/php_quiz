@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$a = [\n    \"a\" => \"n\",\n    \"o\" => \"t\",\n    \"h\" => \"e\"\n];\narray_unshift($a, \"f\");\n$a = extract($a);\necho $a;",
+  "choices": {
+    "a": "False",
+    "b": "4",
+    "c": "Array",
+    "d": "3",
+    "e": "True"
+  },
+  "answers": ["d"]
+}

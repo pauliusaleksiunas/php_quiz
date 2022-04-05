@@ -1,0 +1,11 @@
+{
+  "title": "How would you parse a web page at http://example.com/page.php as XML?",
+  "choices": {
+    "a": "You can’t; it must be well-formed XML.",
+    "b": "DOMDocument::loadFile(‘http://example.com/page.php’);",
+    "c": "simple_xml_load_html(‘http://example.com/page.php’);",
+    "d": "new SimpleXMLElement(file_get_contents(‘http://example.com/page.php’));",
+    "e": "DOMDocument::loadHTML(file_get_contents(‘http://example.com/page.php’));"
+  },
+  "answers": ["e"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code:\n\nfunction a($a)\n{\n    echo $a . \"&\";\n}\n\nfunction b($a)\n{\n    echo \"-\" . $a;\n}\n\n$a = \"!\";\n$b = &$a;\necho a(b($b));",
+  "choices": {
+    "a": "-!!&",
+    "b": "!&-&",
+    "c": "-&!",
+    "d": "!&-!",
+    "e": "-!&"
+  },
+  "answers": ["e"]
+}

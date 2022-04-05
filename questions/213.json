@@ -1,0 +1,11 @@
+{
+  "title": "What would you expect to get from PDOStatement::fetch() in its default mode?",
+  "choices": {
+    "a": "Both an object and an array",
+    "b": "An array containing both associative and enumerated keys",
+    "c": "An associative array",
+    "d": "An enumerated array",
+    "e": "An error, you must pass in the fetch mode"
+  },
+  "answers": ["b"]
+}

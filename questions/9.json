@@ -6,7 +6,8 @@
     "c": "5",
     "d": "20",
     "e": "7",
-    "f": "Notice: A non well formed numeric value encountered"
+    "f": "Notice: A non well formed numeric value encountered",
+    "g": "1 and Notice: A non well formed numeric value encountered"
   },
-  "answers": ["f"]
+  "answers": ["g"]
 }

@@ -1,0 +1,11 @@
+{
+  "title": "What would happen when the following code was run?\n\ndefine('Tree', 'oak');\necho 'This tree is: ' . tree;",
+  "choices": {
+    "a": "A notice",
+    "b": "This tree is: oak (and a notice)",
+    "c": "An error",
+    "d": "This tree is: tree (and a notice)",
+    "e": "This tree is: (and a notice)"
+  },
+  "answers": ["d"]
+}

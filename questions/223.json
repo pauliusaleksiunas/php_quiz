@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following line of code?\n\necho \"4\" + 05 + 011 + ord('a');",
+  "choices": {
+    "a": "An error",
+    "b": "115",
+    "c": "18",
+    "d": "117",
+    "e": "14"
+  },
+  "answers": ["b"]
+}

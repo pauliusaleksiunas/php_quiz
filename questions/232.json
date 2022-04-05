@@ -1,0 +1,11 @@
+{
+  "title": "What will the output of the following code be?\n\n$a = range(3, 9);\nforeach ($a as $b) {\n    switch ($b) {\n        case 3:\n            $b = 7;\n        case 7:\n            $b = 3;\n        default:\n            // do nothing\n    }\n}\necho implode('-', $a);",
+  "choices": {
+    "a": "7-4-5-6-7-8-9",
+    "b": "3-4-5-6-7-8-9-10-11",
+    "c": "3-4-5-6-7-8-9",
+    "d": "7-4-5-6-3-8-9",
+    "e": "7-4-5-6-3-8-9-10-11"
+  },
+  "answers": ["c"]
+}
