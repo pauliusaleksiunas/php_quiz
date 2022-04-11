@@ -1,0 +1,8 @@
+{
+  "title": "Is this statement true or false? “Methods declared as static must be called statically”",
+  "choices": {
+    "a": "True",
+    "b": "False"
+  },
+  "answers": ["b"]
+}

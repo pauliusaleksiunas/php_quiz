@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$a = 1;\n++$a;\n$a *= $a;\necho $a--;",
+  "choices": {
+    "a": "3",
+    "b": "5",
+    "c": "0",
+    "d": "1"
+  },
+  "answers": ["a"]
+}

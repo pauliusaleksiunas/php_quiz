@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nfunction format(&$item)\n{\n    $item = strtoupper($item) . '.';\n    return $item;\n}\n\n$shopping = array(\"fish\", \"bread\", \"eggs\", \"jelly\", \"apples\");\narray_walk($shopping, \"format\");\n$shopping = sort($shopping);\necho $shopping[1];",
+  "choices": {
+    "a": "“APPLES.”",
+    "b": "“apples”",
+    "c": "“BREAD.”",
+    "d": "nothing (no output)",
+    "e": "“fish”"
+  },
+  "answers": ["d"]
+}

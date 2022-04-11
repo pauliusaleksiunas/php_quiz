@@ -1,0 +1,11 @@
+{
+  "title": "Given a class called SoapFunctions and a working WSDL for the methods in that class, what needs to be added to the code below to serve those methods over SOAP?\n\nrequire(\"SoapFunctions.php\");\n$s = new SoapServer($wsdl);\n$s->handle();",
+  "choices": {
+    "a": "$s->setHandler(“SoapFunctions”);",
+    "b": "set_soap_class($s, “SoapFunctions”);",
+    "c": "set_soap_handler($s, “SoapFunctions”);",
+    "d": "$s->setClass(“SoapFunctions”);",
+    "e": "nothing to add, the code above would work\n"
+  },
+  "answers": ["d"]
+}

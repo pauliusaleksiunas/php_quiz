@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$x = 1;\nfunction print_conditional()\n{\n    static $x;\n    if ($x++ == 1)\n        echo \"many\";\n    echo \"good\";\n    echo \"things\";\n    return $x;\n}\n\nprint_conditional();\n$x++;\nprint_conditional();",
+  "choices": {
+    "a": "manygoodthingsmanygoodthings",
+    "b": "manygoodthings",
+    "c": "goodthingsgoodthings",
+    "d": "goodthingsmanygoodthings",
+    "e": "there is no output"
+  },
+  "answers": ["d"]
+}

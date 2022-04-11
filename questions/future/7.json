@@ -1,0 +1,10 @@
+{
+  "title": "Which one is default stream wrapper?",
+  "choices": {
+    "a": "php://",
+    "b": "https://",
+    "c": "file://",
+    "d": "data://"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Does DateTime::createFromFormat and date() use the same format?",
+  "choices": {
+    "a": "yes",
+    "b": "no"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Given the following code:\n\ninterface Verifiable\n{\n    public function verify();\n}\n\nclass Cheque\n{\n    public function verify()\n    {\n        // interesting stuff happens\n        return true;\n    }\n}\n\nclass CurrencyCheque extends Cheque implements Verifiable\n{\n}\n\nWhat happens when we instantiate a CurrencyCheque object?",
+  "choices": {
+    "a": "An warning because the interface isn’t implemented",
+    "b": "A new CurrencyCheque object is created",
+    "c": "The method must be redefined in CurrencyCheque",
+    "d": "An error that the interface must be defined in the parent object",
+    "e": "A fatal error"
+  },
+  "answers": ["b"]
+}

@@ -1,10 +1,9 @@
 {
-  "title": "Where MAX_FILE_SIZE is used?",
+  "title": "Which function doesn't work with ArrayAccess? e.g. $object implements ArrayAccess",
   "choices": {
-    "a": "",
-    "b": "",
-    "c": "",
-    "d": ""
+    "a": "$object->offsetExists('foo')",
+    "b": "array_key_exists('foo', $object)",
+    "c": "isset($object['foo'])"
   },
-  "answers": [""]
+  "answers": ["b"]
 }

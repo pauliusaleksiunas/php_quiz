@@ -1,0 +1,13 @@
+{
+  "title": "Given this code sample:\n\ninterface A\n{\n}\n\nclass C\n{\n}\n\nclass B extends C\n{\n}\n\nclass E extends C implements A\n{\n}\n\nclass D extends E\n{\n}\n\n$b = new B();\n$e = new E();\n$c = new C();\n$a = new B();\n$d = new D();\n\nWhich of the following statements are true? (choose 4)",
+  "choices": {
+    "a": "$c instanceof B",
+    "b": "$d instanceof A",
+    "c": "$d instanceof C",
+    "d": "$e instanceof B",
+    "e": "$e instanceof A",
+    "f": "$c instanceof C",
+    "g": "$a instanceof E"
+  },
+  "answers": ["b", "c", "e", "f"]
+}

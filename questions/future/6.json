@@ -1,0 +1,11 @@
+{
+  "title": "Which DateInterval formats are valid? (Choose 2)",
+  "choices": {
+    "a": "2DT5H2M",
+    "b": "P2DT5H2M",
+    "c": "P2D5H2M",
+    "d": "T5H2M",
+    "e": "P2D"
+  },
+  "answers": ["b", "e"]
+}

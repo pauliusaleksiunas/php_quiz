@@ -1,0 +1,10 @@
+{
+  "title": "php://memory and php://temp are read-write streams that allow temporary data to be stored in a file-like wrapper\nWhich statement is true about them?",
+  "choices": {
+    "a": "there is no diference between them; php://temp is alias to php://memory",
+    "b": "php://memory stored data is saved when stream is closed.",
+    "c": "php://memory will always store its data in memory, whereas php://temp will use a temporary file once the amount of data stored hits a predefined limit",
+    "d": "php://memory writes data to memory and php://temp writes data to temporary file"
+  },
+  "answers": ["c"]
+}

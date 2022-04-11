@@ -1,0 +1,11 @@
+{
+  "title": "How would you change a SimpleXMLElement object into a DOMElement?",
+  "choices": {
+    "a": "convert SimpleXMLElement to XML, then create a DOMElement from the XML",
+    "b": "using simplexml_export_dom()",
+    "c": "using dom_import_simplexml()",
+    "d": "SimpleXMLElement::asDom()",
+    "e": "SimpleXMLElement::saveXML()"
+  },
+  "answers": ["c"]
+}

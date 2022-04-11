@@ -2,7 +2,7 @@
   "title": "What would be in $matches[0] after running the following code?\n\n$pattern = '# \\w*?[aeiou]{2}\\w*? #';\n$string = \"There's a moose loose about this house\";\n$matches = array();\npreg_match_all($pattern, $string, $matches);",
   "choices": {
     "a": "\"There's a moose loose about this house\"",
-    "b": "An array containing \" moose \" and \" about \"\n",
+    "b": "An array containing \" moose \" and \" about \"",
     "c": "\"moose \"",
     "d": "An array containing \" moose \" , \" loose \" , \" about \" and \" house \"",
     "e": "An array containing \" moose \" and \" loose \""

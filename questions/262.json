@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nfunction swings(&$park)\n{\n    $park++;\n    $park = roundabout($park);\n}\n\nfunction roundabout($park)\n{\n    $park *= 2;\n}\n\n$park = 17;\necho swings($park);",
+  "choices": {
+    "a": "19",
+    "b": "37",
+    "c": "36",
+    "d": "74",
+    "e": "nothing"
+  },
+  "answers": ["e"]
+}

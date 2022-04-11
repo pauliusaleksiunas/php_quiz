@@ -1,0 +1,14 @@
+{
+  "title": "Which of the following would you use to validate incoming data from a web form? (choose 3)?",
+  "choices": {
+    "a": "filter_* functions",
+    "b": "stripslashes()",
+    "c": "htmlspecialchars()",
+    "d": "database escape functions",
+    "e": "ctype_* functions",
+    "f": "strip_tags()",
+    "g": "preg_* functions",
+    "h": "url_decode()"
+  },
+  "answers": ["a", "e", "g"]
+}

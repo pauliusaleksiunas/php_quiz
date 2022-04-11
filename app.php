@@ -2,7 +2,7 @@
 
 include 'config.php';
 
-$questions = range(1, 235);
+$questions = range(1, 275);
 removeQuestions($easyQuestions, $questions);
 shuffle($questions);
 $total = count($questions);
@@ -32,8 +32,10 @@ function getQuestion($questionNumber)
 
 function showQuestion($questionNumber, $question, $total, $index)
 {
+    $choices = $question['choices'];
+    shuffleAssoc($choices);
     echo "($index / $total) " . $questionNumber . '. ' . $question['title'] . "\n\n";
-    foreach ($question['choices'] as $letter => $choice) {
+    foreach ($choices as $letter => $choice) {
         echo "$letter: $choice\n";
     }
 
@@ -72,4 +74,14 @@ function removeQuestions($easyQuestions, &$questions)
     foreach ($easyQuestions as $easyQuestion) {
         unset($questions[$easyQuestion-1]);
     }
+}
+
+function shuffleAssoc(&$data) {
+    $keys = array_keys($data);
+    shuffle($keys);
+    foreach($keys as $key) {
+        $new[$key] = $data[$key];
+    }
+
+    $data = $new;
 }

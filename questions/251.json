@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following?\n\necho chr((ord('a') + ord('A'))/2);",
+  "choices": {
+    "a": "Q",
+    "b": "W",
+    "c": "E",
+    "d": "R"
+  },
+  "answers": ["a"]
+}

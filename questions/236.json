@@ -1,0 +1,14 @@
+{
+  "title": "Which of the following are superglobals in PHP? (choose 3)",
+  "choices": {
+    "a": "$_FORMS",
+    "b": "$_COOKIE",
+    "c": "$_COOKIES",
+    "d": "$_REQUEST",
+    "e": "$_DATA",
+    "f": "$_ENVIRONMENT",
+    "g": "$_SERVER",
+    "h": "$_GLOBAL"
+  },
+  "answers": ["b", "d", "g"]
+}

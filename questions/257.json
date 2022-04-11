@@ -1,0 +1,10 @@
+{
+  "title": "Which function would you use to re-order an array by its keys?",
+  "choices": {
+    "a": "ksort",
+    "b": "sort",
+    "c": "asort",
+    "d": "krsort"
+  },
+  "answers": ["a"]
+}

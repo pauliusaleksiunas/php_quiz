@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nfunction values()\n{\n    $j = 1;\n    for ($i = 0; $i < 4; $i++) {\n        yield $j = $j + $i;\n    }\n}\n\nforeach (values() as $v) {\n    echo $v;\n}",
+  "choices": {
+    "a": "1234",
+    "b": "1247",
+    "c": "0123",
+    "d": "1123",
+    "e": "Array"
+  },
+  "answers": ["b"]
+}

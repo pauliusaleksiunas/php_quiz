@@ -1,0 +1,13 @@
+{
+  "title": "Which of the following is a magic method in PHP 7.1? (choose 3)",
+  "choices": {
+    "a": "__walk()",
+    "b": "__sleep()",
+    "c": "__return()",
+    "d": "__call()",
+    "e": "__function()",
+    "f": "__add()",
+    "g": "__set()"
+  },
+  "answers": ["b", "d", "g"]
+}

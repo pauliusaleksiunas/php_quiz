@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nif (strcmp(\"hi\", \"HI\")) echo \"hello\";\nelseif (strcasecmp(\"hi\", \"HI\")) echo \"world\";\nelse throw new Exception(\"HI\");",
+  "choices": {
+    "a": "“world”",
+    "b": "an Exception",
+    "c": "nothing (no output)",
+    "d": "“hello”",
+    "e": "an error"
+  },
+  "answers": ["d"]
+}

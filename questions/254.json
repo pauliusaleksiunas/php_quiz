@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following?\n\n$a = 0xf2 + 0x09;\n$b = $a >> 3;\necho $b;",
+  "choices": {
+    "a": "31",
+    "b": "0",
+    "c": "27",
+    "d": "7",
+    "e": "16"
+  },
+  "answers": ["a"]
+}

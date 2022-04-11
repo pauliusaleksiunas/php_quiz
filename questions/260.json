@@ -1,0 +1,11 @@
+{
+  "title": "With a single existing cookie set for this domain with the key “theme” and the value “green”, what does the following code output?\n\nprint_r($_COOKIE);\nsetcookie('theme', NULL, time() - 3600);\nprint_r($_COOKIE);\nunset($_COOKIE);\nprint_r($_COOKIE);",
+  "choices": {
+    "a": "an error",
+    "b": "Array ( [theme] => green )",
+    "c": "Array ( [theme] => green ) Array ( [theme] => green )",
+    "d": "Array ( [theme] => green ) Array ( [theme] => green ) Array ( [theme] => green )",
+    "e": "nothing"
+  },
+  "answers": ["c"]
+}

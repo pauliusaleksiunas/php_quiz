@@ -1,0 +1,10 @@
+{
+  "title": "Which function would transform the string “excellent PHP functions” into the string “Excellent PHP Functions”?",
+  "choices": {
+    "a": "ucwords",
+    "b": "keywords",
+    "c": "wordwrap",
+    "d": "str_word_count"
+  },
+  "answers": ["a"]
+}

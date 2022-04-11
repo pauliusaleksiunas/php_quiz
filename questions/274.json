@@ -1,0 +1,11 @@
+{
+  "title": "What would you expect $_REQUEST to contain, with configuration settings as follows:\n\ntrack_vars = 1\nrequest_order = \"GP\"\nvariables_order = \"ESGPC\"",
+  "choices": {
+    "a": "POST variables, overwritten by GET variables",
+    "b": "GET variables, overwritten by POST variables, COOKIE variables and SESSION variables, in that order",
+    "c": "COOKIE variables, overwritten by POST variables, GET variables, SESSION variables and ENV variables, in that order",
+    "d": "ENV variables, overwritten by SESSION variables, GET variables, POST variables and COOKIE variables, on that order",
+    "e": "GET variables, overwritten by POST variables"
+  },
+  "answers": ["e"]
+}

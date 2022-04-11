@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$g = range(5, 8);\n$h = array(\"a\", \"b\", \"c\", \"e\");\nfor ($i = 0; $i < count($g); $i++) {\n    foreach ($h as $j) {\n        echo $i . $j;\n        break;\n    }\n}",
+  "choices": {
+    "a": "0a1a2a3a",
+    "b": "5a6a7a8a",
+    "c": "0a0b0c0e",
+    "d": "0a0b0c0e1a1b1c1e2a2b2c2e3a3b3c3e",
+    "e": "5a5b5c5e6a6b6c6e7a7b7c7e8a8b8c8e"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What does the following code output?\n\n$i = function ($j) {\n    $i = $j + 4;\n    $i++;\n    return $i;\n};\n$j = 6;\necho $i($j);",
+  "choices": {
+    "a": "10",
+    "b": "syntax error",
+    "c": "nothing",
+    "d": "11",
+    "e": "6"
+  },
+  "answers": ["d"]
+}

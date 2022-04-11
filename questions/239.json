@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of this code?\n\n$wish_list = array(\n    1 => \"Romeo and Juliet\",\n    4 => \"Bad Science\",\n    2 => \"To Kill A Mockingbird\"\n);\nprint_r(sort($wish_list));",
+  "choices": {
+    "a": "Array ( [1] => Romeo and Juliet [4] => Bad Science [2] => To Kill A Mockingbird )",
+    "b": "Array ( [1] => Romeo and Juliet [2] => To Kill A Mockingbird [4] => Bad Science )",
+    "c": "1",
+    "d": "Array ( [0] => Bad Science [1] => Romeo and Juliet [2] => To Kill A Mockingbird )",
+    "e": "3"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "ArrayAccess is an example of a:",
+  "choices": {
+    "a": "design pattern",
+    "b": "interface",
+    "c": "object",
+    "d": "class",
+    "e": "closure"
+  },
+  "answers": ["b"]
+}

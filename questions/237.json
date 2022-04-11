@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following statements are true when applied to a Registry pattern? (choose 2)",
+  "choices": {
+    "a": "Only one instance of the class can exist",
+    "b": "It implements ArrayAccess",
+    "c": "It is designed to store values of various types",
+    "d": "It uses static methods",
+    "e": "It takes responsibility for instantiating objects"
+  },
+  "answers": ["a", "c"]
+}

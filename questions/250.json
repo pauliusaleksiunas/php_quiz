@@ -1,0 +1,13 @@
+{
+  "title": "Which of the following are true? (Choose 3)",
+  "choices": {
+    "a": "Anonymous functions can accept variables passed into them at call time",
+    "b": "Anonymous functions cannot be called recursively",
+    "c": "Closures are a kind of anonymous function",
+    "d": "Anonymous functions can have function names",
+    "e": "It is possible to return multiple values from an anonymous function",
+    "f": "Closures can have variable values “baked” in at declare time",
+    "g": "Anonymous functions are always created in the global scope"
+  },
+  "answers": ["a", "c", "f"]
+}

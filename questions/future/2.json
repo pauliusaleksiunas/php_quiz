@@ -1,10 +1,10 @@
 {
-  "title": "Whats the difference between upload_max_filesize and post_max_size?",
+  "title": "Where MAX_FILE_SIZE is used?",
   "choices": {
-    "a": "",
-    "b": "",
-    "c": "",
-    "d": ""
+    "a": "before file input in HTML",
+    "b": "after file input in HTML",
+    "c": "in php.ini",
+    "d": "in php script"
   },
-  "answers": [""]
+  "answers": ["a"]
 }

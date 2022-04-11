@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following is a valid namespace separator in PHP?",
+  "choices": {
+    "a": "\\",
+    "b": "::",
+    "c": "@",
+    "d": "/",
+    "e": "->"
+  },
+  "answers": ["a"]
+}

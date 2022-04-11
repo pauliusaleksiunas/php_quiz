@@ -1,0 +1,11 @@
+{
+  "title": "The Active Record design pattern is used for which of the following?",
+  "choices": {
+    "a": "Creating audit trails of all file changes",
+    "b": "Easily storing and retrieving objects in the database",
+    "c": "Integrating PHP and Ruby on Rails projects",
+    "d": "Separating business and presentation logic within a system",
+    "e": "Managing output handlers"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following would allow you to send a POST request to a remote resource via file_get_contents()?",
+  "choices": {
+    "a": "You can’t, use the curl extension or an equivalent",
+    "b": "stream_context(array(“method” => “POST”));",
+    "c": "array(“method”=>“post”);",
+    "d": "stream_context_create(“http_method” => “POST”));",
+    "e": "stream_context_create(array(“http” => array(“method” => “POST”)));"
+  },
+  "answers": ["e"]
+}

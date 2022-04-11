@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$x = 1;\nfunction print_conditional($x)\n{\n    if ($x++ == 1)\n        echo \"none\";\n    echo \"one\";\n    echo \"none\";\n    return $x;\n}\n\nprint_conditional($x);\n$x++;\nprint_conditional($x);",
+  "choices": {
+    "a": "onenone",
+    "b": "noneonenoneonenone",
+    "c": "nonenoneonenone",
+    "d": "onenoneonenoneonenone",
+    "e": "noneonenone"
+  },
+  "answers": ["b"]
+}

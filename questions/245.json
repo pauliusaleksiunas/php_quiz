@@ -1,0 +1,11 @@
+{
+  "title": "What does the html_errors configuration directive do?",
+  "choices": {
+    "a": "Enable reporting of invalid HTML output",
+    "b": "Show PHP errors on webpages",
+    "c": "html_errors is not a valid configuration directive",
+    "d": "Apply HTML formatting to PHP errors",
+    "e": "Suppress browser errors"
+  },
+  "answers": ["d"]
+}

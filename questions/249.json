@@ -1,0 +1,11 @@
+{
+  "title": "How can you recover the original information from this string?\n\n\na:4:{i:2;s:3:\"foo\";i:3;s:4:\"spot\";i:4;s:6:\"stripe\";s:3:\"bar\";i:64;}",
+  "choices": {
+    "a": "using json_decode()",
+    "b": "using the mcrypt extension",
+    "c": "using unserialize()",
+    "d": "using a database library",
+    "e": "you can’t - this is a custom format"
+  },
+  "answers": ["c"]
+}

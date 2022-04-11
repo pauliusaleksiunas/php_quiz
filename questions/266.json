@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$s = \"This sentence contains many words\";\n$r = explode(' ', ucfirst($s));\nsort($r);\necho implode(',', $r);",
+  "choices": {
+    "a": "This Sentence Contains Many Words",
+    "b": "This,contains,many,sentence,words",
+    "c": "This,Sentence,Contains,Many,Words",
+    "d": "This contains many sentence words",
+    "e": "This Contains Many Sentence Words"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\nclass M\n{\n    public function identify()\n    {\n        echo self::myName();\n    }\n\n    public function myName()\n    {\n        return \"Mike\";\n    }\n}\n\nclass N extends M\n{\n    public function myName()\n    {\n        return \"November\";\n    }\n}\n\nfunction m(N $n)\n{\n    $n->identify();\n}\n\n$m = new N();\nm($m);",
+  "choices": {
+    "a": "Fatal error",
+    "b": "Catchable fatal error",
+    "c": "Mike",
+    "d": "November",
+    "e": "Syntax error"
+  },
+  "answers": ["c"]
+}

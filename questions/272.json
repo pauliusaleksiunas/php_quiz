@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\n$a = \"Apple\";\necho <<<'A'\npass me that $a\nA;",
+  "choices": {
+    "a": "syntax error",
+    "b": "“pass me that Apple”",
+    "c": "“pass me that apple”\n",
+    "d": "fatal error",
+    "e": "pass me that $a"
+  },
+  "answers": ["e"]
+}

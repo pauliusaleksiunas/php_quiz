@@ -1,0 +1,11 @@
+{
+  "title": "What is the output of the following code?\n\ntrait A\n{\n    public function b()\n    {\n        echo self::$name;\n    }\n}\n\nclass C\n{\n    protected static $name = \"c\";\n    use A;\n}\n\nclass D extends C\n{\n    protected static $name = \"d\";\n}\n\n$c = new D();\n$c->b();",
+  "choices": {
+    "a": "d",
+    "b": "Error - method b() isn’t available in class D",
+    "c": "Error - “use” must be the first thing in a class",
+    "d": "c",
+    "e": "Error - class property name isn’t available in class D"
+  },
+  "answers": ["d"]
+}

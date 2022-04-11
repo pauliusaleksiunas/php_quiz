@@ -1,0 +1,11 @@
+{
+  "title": "Using the notation self::$property refers to:",
+  "choices": {
+    "a": "A property of the current object",
+    "b": "The $property of the current object",
+    "c": "The class constant $property in this class",
+    "d": "The class property $property in this class",
+    "e": "A variable called $property in this class or any parent class."
+  },
+  "answers": ["d"]
+}

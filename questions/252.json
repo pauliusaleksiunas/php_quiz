@@ -1,0 +1,11 @@
+{
+  "title": "How would you efficiently extract data from a csv file which is several gigabytes in size?",
+  "choices": {
+    "a": "Use a custom stream wrapper",
+    "b": "file_get_contents() and explode()",
+    "c": "fopen() and fgetcsv()",
+    "d": "file() and explode()",
+    "e": "fopen(), fgets() and explode()"
+  },
+  "answers": ["c", "e"]
+}

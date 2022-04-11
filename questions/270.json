@@ -1,0 +1,12 @@
+{
+  "title": "Which of the following would offer protection against an SQL injection attack? (choose 2)",
+  "choices": {
+    "a": "mysqli_real_escape_string()",
+    "b": "mysqli_true_escape_string()",
+    "c": "addslashes()",
+    "d": "using PDO and prepared statements",
+    "e": "htmlspecialchars()",
+    "f": "strip_tags()"
+  },
+  "answers": ["a", "d"]
+}

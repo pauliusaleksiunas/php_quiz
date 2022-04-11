@@ -1,0 +1,11 @@
+{
+  "title": "Which object method is automatically called when an object is cloned?",
+  "choices": {
+    "a": "__copy()",
+    "b": "__wakeup()",
+    "c": "__drone()",
+    "d": "__clone()",
+    "e": "__call()"
+  },
+  "answers": ["d"]
+}

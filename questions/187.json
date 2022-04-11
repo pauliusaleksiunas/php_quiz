@@ -5,7 +5,7 @@
     "b": "htmlentities()",
     "c": "preg_quote()",
     "d": "regex_quote()",
-    "e": "quote_meta()"
+    "e": "quotemeta()"
   },
   "answers": ["c", "e"]
 }
