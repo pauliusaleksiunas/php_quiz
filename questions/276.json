@@ -1,0 +1,11 @@
+{
+  "title": "When PHP is running on a command line, what super-global will contain the command line arguments specified?",
+  "choices": {
+    "a": "When PHP is running on a command line, what super-global will contain the command line arguments specified?",
+    "b": "$_ENV",
+    "c": "$GLOBALS",
+    "d": "$_POST",
+    "e": "$_ARGV"
+  },
+  "answers": ["a"]
+}

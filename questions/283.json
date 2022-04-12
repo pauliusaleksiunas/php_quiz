@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$doc = new DOMDocument();\n$doc->loadXML('<root />');\n$el = $doc->createElement('test', 'some value');\necho $doc->saveXML();",
+  "choices": {
+    "a": "<?xml version=\"1.0\"?><root/>",
+    "b": "<?xml version=\"1.0\"?><root/><test>some value</test>",
+    "c": "<?xml version=\"1.0\"?><root><test>some value</test></root>",
+    "d": "<?xml version=\"1.0\"?><root test=\"some value\"/>"
+  },
+  "answers": ["a"]
+}

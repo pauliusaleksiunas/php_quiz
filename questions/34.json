@@ -4,7 +4,7 @@
     "a": "A,",
     "b": "A,A,",
     "c": "A,A,A,",
-    "d": "PHP Warning: call_user_func_array() expects parameter 1 to be a valid callback\n"
+    "d": "PHP Warning: call_user_func_array() expects parameter 1 to be a valid callback"
   },
   "answers": ["b"]
 }

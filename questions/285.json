@@ -1,0 +1,10 @@
+{
+  "title": "What is the XSL extension in PHP doing?",
+  "choices": {
+    "a": "Formatting the XML output",
+    "b": "Applying style sheets to the XML",
+    "c": "Applying XML transformations",
+    "d": "Checking the syntax of an XML document for validity"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following code?\n\n$xml = '<root>\n<parent name=\"Peter\">\n<child age=\"20\">James</child>\n<child age=\"5\">Leila</child>\n</parent>\n<parent name=\"Anna\">\n<child age=\"10\">Dido</child>\n<child age=\"11\">George</child>\n</parent>\n</root>';\n$xmlElement = new SimpleXMLElement($xml);\n$teens = $xmlElement->xpath('*/child[@age>9]');\nprint $teens[1];",
+  "choices": {
+    "a": "It will print James",
+    "b": "It will print nothing",
+    "c": "It will cause a Run-time error",
+    "d": "It will print Dido"
+  },
+  "answers": ["d"]
+}

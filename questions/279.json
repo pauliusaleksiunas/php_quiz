@@ -1,0 +1,10 @@
+{
+  "title": "Your PHP script is repeatedly parsing 50KB of data returned from a remote web service into browser-readable HTML. Users complain that the script takes a long time to run. Which of the following measures usually leads to the best results? (Choose 2)",
+  "choices": {
+    "a": "Activate the opcode cache",
+    "b": "Install an SSD drive on the server",
+    "c": "Cache the data returned by the web service locally",
+    "d": "Upgrade to the latest version of PHP"
+  },
+  "answers": ["c", "d"]
+}

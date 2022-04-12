@@ -1,0 +1,10 @@
+{
+  "title": "What is the name of the method that allows xpath expressions in SimpleXML?",
+  "choices": {
+    "a": "There is no such method",
+    "b": "query",
+    "c": "xpathExpression",
+    "d": "xpath"
+  },
+  "answers": ["d"]
+}

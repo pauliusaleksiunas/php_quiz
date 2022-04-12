@@ -1,0 +1,10 @@
+{
+  "title": "Which PHP functions may be used to find out which PHP extensions are available in the system? (Choose 2)",
+  "choices": {
+    "a": "extension_loaded()",
+    "b": "get_extension_funcs()",
+    "c": "get_loaded_extensions()",
+    "d": "phpinfo()"
+  },
+  "answers": ["c", "d"]
+}

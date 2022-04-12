@@ -1,0 +1,10 @@
+{
+  "title": "What is wrong with this XML document?\n\n<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<node>\n    <?var type=\"string\" ?>\n    <leaf>Value</leaf>\n</node>",
+  "choices": {
+    "a": "The encoding is only required for non-western languages",
+    "b": "<?var is not a valid node type",
+    "c": "<?var is missing a closing tag",
+    "d": "Nothing"
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "What will the following code produce?\n\ndefine('CONSTANT', 1);\ndefine('_CONSTANT', 0);\ndefine('EMPTY', '');\nif (!empty(empty)) {\n    if (!((boolean)_CONSTANT)) {\n        print \"One\";\n    }\n} else if (constant('CONSTANT') == 1) {\n    print \"Two\";\n}",
+  "choices": {
+    "a": "One",
+    "b": "Two",
+    "c": "Parse Error"
+  },
+  "answers": ["c"]
+}

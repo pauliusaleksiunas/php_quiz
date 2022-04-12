@@ -1,0 +1,10 @@
+{
+  "title": "Function world() is defined in the namespace 'myapp\\utils\\hello'. Your code is in namespace 'myapp'. What is the correct way to import the hello namespace so you can use the world() function?",
+  "choices": {
+    "a": "use hello;",
+    "b": "use utils\\hello;",
+    "c": "use myapp\\utils\\hello;",
+    "d": "use myapp\\utils\\hello\\world;"
+  },
+  "answers": ["c"]
+}

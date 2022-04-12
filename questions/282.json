@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following is a feature that does NOT exist in the DateTime extension?",
+  "choices": {
+    "a": "The ability to list time zones by continent",
+    "b": "The ability to modify date data",
+    "c": "The ability to generate dates between two date period",
+    "d": "The ability to parse dates in the cookie format",
+    "e": "None of the above"
+  },
+  "answers": ["e"]
+}

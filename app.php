@@ -2,7 +2,7 @@
 
 include 'config.php';
 
-$questions = range(1, 275);
+$questions = range(1, 286);
 removeQuestions($easyQuestions, $questions);
 shuffle($questions);
 $total = count($questions);
