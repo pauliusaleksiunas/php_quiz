@@ -1,0 +1,10 @@
+{
+  "title": "In the following code, what is the key of the element with value 25?\n<?php\n\n$myArray = [\n'foo' => 'bar',\n7 => 15,\n28\n];\n\n$myArray[] = 25;",
+  "choices": {
+    "a": "29",
+    "b": "0",
+    "c": "9",
+    "d": "8"
+  },
+  "answers": ["c"]
+}

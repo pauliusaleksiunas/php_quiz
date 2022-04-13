@@ -1,0 +1,10 @@
+{
+  "title": "What is the structure of the Request's first line ?\n",
+  "choices": {
+    "a": "Method Uri ProtocolVersion\n",
+    "b": "Uri Method ProtocolVersion\n",
+    "c": "Method ProtocolVersion Uri\n",
+    "d": "ProtocolVersion Method Uri\n"
+  },
+  "answers": ["a"]
+}

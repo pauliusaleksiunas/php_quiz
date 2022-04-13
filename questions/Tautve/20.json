@@ -1,0 +1,10 @@
+{
+  "title": "Which of these methods aren't mentioned in the RFC2616?\n",
+  "choices": {
+    "a": "PATCH",
+    "b": "LINK",
+    "c": "CONNECT",
+    "d": "TRACE"
+  },
+  "answers": ["a", "b"]
+}

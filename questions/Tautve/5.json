@@ -1,0 +1,10 @@
+{
+  "title": "What line should be added to the cleanArray() function below to ensure this script outputs 1525hello?\n<?php\n\nfunction cleanArray($arr)\n{\n$functions = [];\n\n/** line **/\n\n$ret = $arr;\n\nforeach ($functions as $func) {\n$ret = $func($ret);\n}\n\nreturn $ret;\n}\n\n$values = [15, '', 0, 25, 'hello', 15];\n\nforeach (cleanArray($values) as $v) {\necho $v;\n}",
+  "choices": {
+    "a": "array_push($functions, 'array_filter', 'array_unique');\n",
+    "b": "array_push($functions, 'array_reduce');\n",
+    "c": "$arr = array_clean($arr);\n",
+    "d": "array_pop($functions, 'array_clean');\n"
+  },
+  "answers": ["a"]
+}

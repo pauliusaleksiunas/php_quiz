@@ -1,0 +1,10 @@
+{
+  "title": "What does the 502 HTTP status code stand for?\n",
+  "choices": {
+    "a": "Bad Gateway\n",
+    "b": "Gateway timeout\n",
+    "c": "Not implemented\n",
+    "d": "Service Unavailable\n"
+  },
+  "answers": ["a"]
+}

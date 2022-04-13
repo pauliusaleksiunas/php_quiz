@@ -1,0 +1,10 @@
+{
+  "title": "In the following code, what are the values required in $a, $b, $c and $d to output 40?\n<?php\n$values = [\n[\n1 => 10,\n20,\n[30, [40]],\n],\n[\n2 => 50,\n[\n[1 => 60, 0 => 70],\n],\n],\n];\n\necho $values[$a][$b][$c][$d];",
+  "choices": {
+    "a": "$a = 0, $b = 1, $c = 1, $d = 0\n",
+    "b": "$a = 0, $b = 1, $c = 0, $d = 0\n",
+    "c": "$a = 0, $b = 3, $c = 1, $d = 0\n",
+    "d": "$a = 1, $b = 3, $c = 1, $d = 0\n"
+  },
+  "answers": ["c"]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following will display correct?\n<?php\n$a = [\n1=> 'red',\n'green',\n'blue',\n'purple' => [\n'house' => 'dog',\n'food' => 'meal',\n'here' => 'gone',\n'hello' => [\n5 => 'goodbye',\n8 => 'something',\n'correct'\n],\n],\n];",
+  "choices": {
+    "a": "print $a['purple'][4]['hello'][9];\n",
+    "b": "print $a['purple'][4][3];\n",
+    "c": "print $a['purple'][2][4][3];\n",
+    "d": "print $a['purple'][2][4][9];\n",
+    "e": "print $a['purple']['hello'][9];\n"
+  },
+  "answers": ["e"]
+}

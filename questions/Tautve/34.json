@@ -1,0 +1,10 @@
+{
+  "title": "What do 1xx codes stand for ?\n",
+  "choices": {
+    "a": "They don't exist.\n",
+    "b": "Client Error\n",
+    "c": "Server Error\n",
+    "d": "Informational\n"
+  },
+  "answers": ["d"]
+}

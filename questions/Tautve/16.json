@@ -1,0 +1,10 @@
+{
+  "title": "How do you remove an element with the key 0 from the array $numbers?\n",
+  "choices": {
+    "a": "array_shift($numbers);\n",
+    "b": "unset($numbers[0]);\n",
+    "c": "$numbers[0] = null;\n",
+    "d": "array_pop($numbers);\n"
+  },
+  "answers": ["b"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "When the server can't return an acceptable response according to the Accept headers, it should return:",
+  "choices": {
+    "a": "a 415 response code\n",
+    "b": "a 406 response code\n",
+    "c": "a 418 response code\n",
+    "d": "a 412 response code\n"
+  },
+  "answers": ["b"]
+}

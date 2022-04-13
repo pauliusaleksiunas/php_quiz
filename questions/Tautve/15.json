@@ -1,0 +1,10 @@
+{
+  "title": "What is the output of the following PHP script?\n<?php\n$arr = array_flip([\n'a' => 1,\n'b' => 2,\n'c' => 3\n]);\n\nforeach (array_values($arr) as $k => $v) {\necho $k;\n}",
+  "choices": {
+    "a": "012",
+    "b": "abc",
+    "c": "cba",
+    "d": "210"
+  },
+  "answers": ["a"]
+}

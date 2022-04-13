@@ -1,0 +1,10 @@
+{
+  "title": "How does the browser communicate to the server what is the preferred language of the user?\n",
+  "choices": {
+    "a": "User language preferences are sent using the Accept-Language header\n",
+    "b": "The main language is sent using the Locale header, while secondary languages are usually included in the X-Locale-Alternate header.",
+    "c": "The browser doesn’t communicate the language of the user, it’s inferred from the user IP.\n",
+    "d": "The main language is included in the User-Agent header\n"
+  },
+  "answers": ["a"]
+}

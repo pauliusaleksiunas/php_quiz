@@ -1,0 +1,10 @@
+{
+  "title": "In the PHP script below, what line of code should be substituted with /** line **/ to achieve an output of eeeeee?\n<?php\nfunction sortByLength($a, $b)\n{\n$lenA = strlen($a);\n$lenB = strlen($b);\n\nif ($lenA == $lenB) { return 0; }\n\n/** line **/\n}\n\n$values = [\n'ccc',\n'a',\n'eeeeee',\n'dddd',\n'bb',\n'fffff'\n];\n\nusort($values, 'sortByLength');\necho $values[5];",
+  "choices": {
+    "a": "return $lenA < $lenB ? 1 : -1;\n",
+    "b": "return $lenA <=> $lenB;\n",
+    "c": "return $lenA < $lenB ? 0 : -1;\n",
+    "d": "return $lenB <=> $lenA;\n"
+  },
+  "answers": ["b"]
+}

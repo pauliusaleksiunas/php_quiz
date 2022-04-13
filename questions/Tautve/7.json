@@ -1,0 +1,10 @@
+{
+  "title": "Given the $info array defined below, what is the best way to assign the first value to a variable called $name and the third value to a variable called $country?\n<?php\n\n$info = [\n'Paul',\n31,\n'Australia'\n];",
+  "choices": {
+    "a": "list($name, , $country) = $info;\n",
+    "b": "list($name, $country) = $info;\n",
+    "c": "list($name, $age, $country) = $info;\n",
+    "d": "array_list($name, $age, $country) = $info;\n"
+  },
+  "answers": ["a"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Is the following PHP code valid or will it generate an error, warning or notice?\n<?php\n\nerror_reporting(E_ALL | E_STRICT);\n\n$newArray[E_STRICT] = 'foo';",
+  "choices": {
+    "a": "Invalid, E_STRICT is not defined\n",
+    "b": "Invalid, you must define $newArray by calling array() first\n",
+    "c": "Yes, it's completely valid\n",
+    "d": "Invalid, you cannot use a constant as an array key\n"
+  },
+  "answers": ["c"]
+}
