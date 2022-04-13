@@ -5,5 +5,5 @@
     "b": "Validation always wins over expiration.\n",
     "c": "Expiration always wins over validation.\n"
   },
-  "answers": ["Expiration always wins over validation.\n"]
+  "answers": ["c"]
 }

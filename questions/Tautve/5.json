@@ -6,5 +6,5 @@
     "c": "$arr = array_clean($arr);\n",
     "d": "array_pop($functions, 'array_clean');\n"
   },
-  "answers": ["array_push($functions, 'array_filter', 'array_unique');\n"]
+  "answers": ["a"]
 }

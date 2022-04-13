@@ -6,5 +6,5 @@
     "c": "Method ProtocolVersion Uri\n",
     "d": "ProtocolVersion Method Uri\n"
   },
-  "answers": ["Method Uri ProtocolVersion\n"]
+  "answers": ["a"]
 }

@@ -6,5 +6,5 @@
     "c": "SMTP",
     "d": "SSH"
   },
-  "answers": ["TLS", "SSL"]
+  "answers": ["a", "b"]
 }

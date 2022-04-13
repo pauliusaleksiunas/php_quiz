@@ -6,5 +6,5 @@
     "c": "$numbers[0] = null;\n",
     "d": "array_pop($numbers);\n"
   },
-  "answers": ["unset($numbers[0]);\n"]
+  "answers": ["b"]
 }

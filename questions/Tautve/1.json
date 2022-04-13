@@ -6,5 +6,5 @@
     "c": "$squares = call_user_func_array($arr, 'square');\n",
     "d": "$squares = call_user_func_array('square', $arr);\n"
   },
-  "answers": ["$squares = array_map('square', $arr);\n"]
+  "answers": ["a"]
 }

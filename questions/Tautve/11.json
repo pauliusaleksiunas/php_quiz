@@ -6,5 +6,5 @@
     "c": "Yes, it's completely valid\n",
     "d": "Invalid, you cannot use a constant as an array key\n"
   },
-  "answers": ["Yes, it's completely valid\n"]
+  "answers": ["c"]
 }

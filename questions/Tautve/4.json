@@ -6,5 +6,5 @@
     "c": "array_diff_key\n",
     "d": "array_diff_ukey\n"
   },
-  "answers": ["array_diff_assoc\n"]
+  "answers": ["b"]
 }

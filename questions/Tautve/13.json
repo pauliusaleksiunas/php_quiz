@@ -1,10 +1,10 @@
 {
   "title": "Which function is used to remove and return the first element of an array?\n",
   "choices": {
-    "a": "array_shift\n",
+    "a": "array_grab\n",
     "b": "array_pull\n",
     "c": "array_pop\n",
     "d": "array_shift\n"
   },
-  "answers": ["array_shift\n"]
+  "answers": ["d"]
 }

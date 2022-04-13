@@ -6,5 +6,5 @@
     "c": "return $lenA < $lenB ? 0 : -1;\n",
     "d": "return $lenB <=> $lenA;\n"
   },
-  "answers": ["return $lenA <=> $lenB;\n"]
+  "answers": ["b"]
 }

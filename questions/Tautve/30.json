@@ -6,5 +6,5 @@
     "c": "The browser doesn’t communicate the language of the user, it’s inferred from the user IP.\n",
     "d": "The main language is included in the User-Agent header\n"
   },
-  "answers": ["User language preferences are sent using the Accept-Language header\n"]
+  "answers": ["a"]
 }

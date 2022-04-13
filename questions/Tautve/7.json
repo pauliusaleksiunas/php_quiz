@@ -6,5 +6,5 @@
     "c": "list($name, $age, $country) = $info;\n",
     "d": "array_list($name, $age, $country) = $info;\n"
   },
-  "answers": ["list($name, , $country) = $info;\n"]
+  "answers": ["a"]
 }

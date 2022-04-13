@@ -6,5 +6,5 @@
     "c": "Cache-control: no-store\n",
     "d": "Cache-control: no-cache\n"
   },
-  "answers": ["Cache-control: no-cache\n", "Cache-control: must-revalidate\n"]
+  "answers": ["d", "a"]
 }

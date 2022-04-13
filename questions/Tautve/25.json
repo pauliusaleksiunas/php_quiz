@@ -6,5 +6,5 @@
     "c": "a 412 response code\n",
     "d": "a 406 response code\n"
   },
-  "answers": ["a 412 response code\n"]
+  "answers": ["c"]
 }

@@ -6,5 +6,5 @@
     "c": "Proxy-Authenticate\n",
     "d": "WWW-Authenticate\n"
   },
-  "answers": ["User-Agent\n", "Referer"]
+  "answers": ["b", "a"]
 }

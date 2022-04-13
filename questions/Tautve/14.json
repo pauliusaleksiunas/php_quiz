@@ -6,5 +6,5 @@
     "c": "$arr = new array(15);\n",
     "d": "$arr = array(15 => 0);\n"
   },
-  "answers": ["$arr = array(15);\n"]
+  "answers": ["a"]
 }

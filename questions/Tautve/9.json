@@ -7,5 +7,5 @@
     "d": "print $a['purple'][2][4][9];\n",
     "e": "print $a['purple']['hello'][9];\n"
   },
-  "answers": ["print $a['purple']['hello'][9];\n"]
+  "answers": ["e"]
 }

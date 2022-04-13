@@ -6,5 +6,5 @@
     "c": "The original array is modified so elements are now in a random order. New keys are assigned to elements.\n",
     "d": "A new array is returned with elements in a random order. New keys are assigned to elements.\n"
   },
-  "answers": ["The original array is modified so elements are now in a random order. New keys are assigned to elements.\n"]
+  "answers": ["c"]
 }

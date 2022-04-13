@@ -6,5 +6,5 @@
     "c": "CONNECT",
     "d": "TRACE"
   },
-  "answers": ["PATCH", "LINK"]
+  "answers": ["a", "b"]
 }

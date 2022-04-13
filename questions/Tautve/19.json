@@ -5,5 +5,5 @@
     "b": "Expires\n",
     "c": "max-age\n"
   },
-  "answers": ["Expires\n", "max-age\n"]
+  "answers": ["b", "c"]
 }

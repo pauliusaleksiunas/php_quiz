@@ -7,5 +7,5 @@
     "d": "If-None-Match\n",
     "e": "Etag"
   },
-  "answers": ["If-None-Match\n", "If-Modified-Since\n"]
+  "answers": ["d", "c"]
 }
