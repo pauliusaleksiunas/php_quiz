@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following statements best describes the shuffle() function? This function accepts an array as its first argument.",
+  "choices": {
+    "a": "A new array is returned with elements in a random order. Each value retains its original key.\n",
+    "b": "The original array is modified so elements are now in a random order. Each value retains its original key.\n",
+    "c": "The original array is modified so elements are now in a random order. New keys are assigned to elements.\n",
+    "d": "A new array is returned with elements in a random order. New keys are assigned to elements.\n"
+  },
+  "answers": ["The original array is modified so elements are now in a random order. New keys are assigned to elements.\n"]
+}

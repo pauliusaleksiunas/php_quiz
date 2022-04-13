@@ -1,0 +1,9 @@
+{
+  "title": "Which headers/directives will be ignored by a proxy if Expires, s-maxage and max-age are all present in a response ?",
+  "choices": {
+    "a": "s-maxage\n",
+    "b": "Expires\n",
+    "c": "max-age\n"
+  },
+  "answers": ["Expires\n", "max-age\n"]
+}

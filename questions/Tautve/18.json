@@ -1,0 +1,8 @@
+{
+  "title": "Does the Pragma HTTP response header allow to efficiently transmit cache instructions in HTTP/1.1 ?",
+  "choices": {
+    "a": "Yes",
+    "b": "No"
+  },
+  "answers": ["No"]
+}

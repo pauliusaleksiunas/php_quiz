@@ -1,0 +1,10 @@
+{
+  "title": "Consider the following PHP script.\n<?php\n\nfunction square($val)\n{\nreturn $val ** 2;\n}\n\n$arr = [1, 2, 3, 4];\n\n/** line **/\n\n$i = 0;\nforeach ($squares as $value) {\nif ($i++ > 0) {\necho \".\";\n}\n\necho $value;\n}",
+  "choices": {
+    "a": "$squares = array_map('square', $arr);\n",
+    "b": "$squares = array_walk($arr, 'square');\n",
+    "c": "$squares = call_user_func_array($arr, 'square');\n",
+    "d": "$squares = call_user_func_array('square', $arr);\n"
+  },
+  "answers": ["$squares = array_map('square', $arr);\n"]
+}

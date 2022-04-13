@@ -1,0 +1,10 @@
+{
+  "title": "Which Cache-Control directive disallows the browser and all intermediate caches from storing any version of the returned response ?",
+  "choices": {
+    "a": "no-cache\n",
+    "b": "private\n",
+    "c": "no-store\n",
+    "d": "public\n"
+  },
+  "answers": ["no-store\n"]
+}

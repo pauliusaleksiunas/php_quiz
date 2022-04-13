@@ -1,0 +1,11 @@
+{
+  "title": "What is the status code for Gone?\n",
+  "choices": {
+    "a": "403\n",
+    "b": "404\n",
+    "c": "411\n",
+    "d": "410\n",
+    "3": "409\n"
+  },
+  "answers": ["410\n"]
+}

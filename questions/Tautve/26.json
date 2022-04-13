@@ -1,0 +1,10 @@
+{
+  "title": "What is the request structure ?\n",
+  "choices": {
+    "a": "Request-Line Headers CRLF CRLF Body\n",
+    "b": "Request-Line CRLF Headers CRLF CRLF Body\n",
+    "c": "Request-Line Headers Body\n",
+    "d": "Request-Line Headers CRLF Body\n"
+  },
+  "answers": ["Request-Line CRLF Headers CRLF CRLF Body\n"]
+}

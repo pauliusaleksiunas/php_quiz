@@ -1,0 +1,8 @@
+{
+  "title": "A cookie is set from foo.com. The domain attribute is set to foo.com. In most browsers, will this cookie be sent with a request to bar.foo.com ?",
+  "choices": {
+    "a": "Yes",
+    "b": "No"
+  },
+  "answers": ["Yes"]
+}

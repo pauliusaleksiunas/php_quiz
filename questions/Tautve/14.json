@@ -1,0 +1,10 @@
+{
+  "title": "How do you create an array called $arr consisting of a single element with the value 15?\n",
+  "choices": {
+    "a": "$arr = array(15);\n",
+    "b": "$arr = array_push(15);\n",
+    "c": "$arr = new array(15);\n",
+    "d": "$arr = array(15 => 0);\n"
+  },
+  "answers": ["$arr = array(15);\n"]
+}

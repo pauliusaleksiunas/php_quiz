@@ -1,0 +1,10 @@
+{
+  "title": "Which protocols secure HTTP?\n",
+  "choices": {
+    "a": "TLS",
+    "b": "SSL",
+    "c": "SMTP",
+    "d": "SSH"
+  },
+  "answers": ["TLS", "SSL"]
+}

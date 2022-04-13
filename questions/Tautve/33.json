@@ -1,0 +1,11 @@
+{
+  "title": "Which of the following are valid HTTP request headers used in the validation caching model?\n",
+  "choices": {
+    "a": "Age",
+    "b": "Last-Modified\n",
+    "c": "If-Modified-Since\n",
+    "d": "If-None-Match\n",
+    "e": "Etag"
+  },
+  "answers": ["If-None-Match\n", "If-Modified-Since\n"]
+}

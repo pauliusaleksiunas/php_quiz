@@ -1,0 +1,9 @@
+{
+  "title": "Which of the following assertions is true about HTTP caching?\n",
+  "choices": {
+    "a": "Expiration and validation are mutually exclusive and therefore cannot be used simultaneously.\n",
+    "b": "Validation always wins over expiration.\n",
+    "c": "Expiration always wins over validation.\n"
+  },
+  "answers": ["Expiration always wins over validation.\n"]
+}

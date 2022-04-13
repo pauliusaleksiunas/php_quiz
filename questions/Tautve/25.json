@@ -1,0 +1,10 @@
+{
+  "title": "When the server can't return an acceptable response according to an If-Match header, it should return:",
+  "choices": {
+    "a": "a 422 response code\n",
+    "b": "a 418 response code\n",
+    "c": "a 412 response code\n",
+    "d": "a 406 response code\n"
+  },
+  "answers": ["a 412 response code\n"]
+}

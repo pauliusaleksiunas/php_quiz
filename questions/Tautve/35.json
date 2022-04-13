@@ -1,0 +1,10 @@
+{
+  "title": "Which HTTP response header instructs a cache to send a request to the origin server for validation before releasing a cached copy ?",
+  "choices": {
+    "a": "Cache-control: must-revalidate\n",
+    "b": "Cache-control: private\n",
+    "c": "Cache-control: no-store\n",
+    "d": "Cache-control: no-cache\n"
+  },
+  "answers": ["Cache-control: no-cache\n", "Cache-control: must-revalidate\n"]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Which of the following functions compares array1 against array2 and returns the difference by checking array keys in addition?",
+  "choices": {
+    "a": "array_diff_uassoc\n",
+    "b": "array_diff_assoc\n",
+    "c": "array_diff_key\n",
+    "d": "array_diff_ukey\n"
+  },
+  "answers": ["array_diff_assoc\n"]
+}

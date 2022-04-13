@@ -1,0 +1,10 @@
+{
+  "title": "Which of these headers don't belong to the Response ?\n",
+  "choices": {
+    "a": "Referer",
+    "b": "User-Agent\n",
+    "c": "Proxy-Authenticate\n",
+    "d": "WWW-Authenticate\n"
+  },
+  "answers": ["User-Agent\n", "Referer"]
+}
