@@ -1,9 +1,0 @@
-{
-  "title": "What separate the body from the headers ?\n",
-  "choices": {
-    "a": "Nothing, there is no separator\n",
-    "b": "BEGIN BODY\n",
-    "c": "CRLF\n"
-  },
-  "answers": ["c"]
-}
