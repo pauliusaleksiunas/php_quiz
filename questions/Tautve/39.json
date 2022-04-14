@@ -1,0 +1,12 @@
+{
+  "title": "What is the HTTP status codes for Internal Server Error?\n",
+  "choices": {
+    "a": "500",
+    "b": "501",
+    "c": "502",
+    "d": "503",
+    "e": "504",
+    "f": "505"
+  },
+  "answers": ["a"]
+}

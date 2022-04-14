@@ -1,0 +1,11 @@
+{
+  "title": "What are the HTTP status codes for client errors?\n",
+  "choices": {
+    "a": "5xx",
+    "b": "2xx",
+    "c": "3xx",
+    "d": "4xx",
+    "e": "1xx"
+  },
+  "answers": ["d"]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "HTTP PURGE method was added to http/1.1 to allow to mark pages cached by proxies as stales.\n",
+  "choices": {
+    "a": "True",
+    "b": "False"
+  },
+  "answers": ["b"]
+}

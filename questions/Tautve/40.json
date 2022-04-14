@@ -1,0 +1,10 @@
+{
+  "title": "What can happen to an HTTP response whose Cache-Control header value equals private, max-age=120?\n",
+  "choices": {
+    "a": "It will be cached by a reverse proxy cache like Varnish.\n",
+    "b": "It prevents the response from being cached by the web browser or any shared proxies.\n",
+    "c": "It will be cached by any proxy server.\n",
+    "d": "It will be cached by the web browser.\n"
+  },
+  "answers": ["d"]
+}

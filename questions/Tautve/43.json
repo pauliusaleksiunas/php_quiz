@@ -1,0 +1,10 @@
+{
+  "title": "What does the 308 HTTP status code stand for?\n",
+  "choices": {
+    "a": "Moved permanently\n",
+    "b": "Found (moved temporarily)\n",
+    "c": "Permanent redirect\n",
+    "d": "Temporary redirect\n"
+  },
+  "answers": ["c"]
+}

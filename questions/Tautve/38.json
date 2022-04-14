@@ -1,0 +1,10 @@
+{
+  "title": "Which HTTP response headers are involved in the validation caching model?\n",
+  "choices": {
+    "a": "Last-Modified\n",
+    "b": "Cache-Control: max-age\n",
+    "c": "Etag\n",
+    "d": "Cache-Control: s-max-age\n"
+  },
+  "answers": ["a", "c"]
+}

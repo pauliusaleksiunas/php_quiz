@@ -1,0 +1,15 @@
+{
+  "title": "Which HTTP verbs are idempotent ?\n",
+  "choices": {
+    "a": "TRACE\n",
+    "b": "CONNECT\n",
+    "c": "DELETE\n",
+    "d": "HEAD\n",
+    "e": "GET\n",
+    "f": "OPTIONS\n",
+    "g": "POST\n",
+    "h": "PATCH\n",
+    "i": "PUT\n"
+  },
+  "answers": ["c", "i", "a", "d", "e", "f"]
+}
