@@ -1,0 +1,11 @@
+{
+  "title": "Which HTTP status codes are used to indicate an information?\n",
+  "choices": {
+    "a": "4xx or 5xx, depending on the type of information\n",
+    "b": "2xx\n",
+    "c": "3xx\n",
+    "d": "4xx\n",
+    "e": "1xx\n"
+  },
+  "answers": ["e"]
+}

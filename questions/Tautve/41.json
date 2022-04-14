@@ -1,0 +1,10 @@
+{
+  "title": "Which Request header is used to check the ETag validity ?\n",
+  "choices": {
+    "a": "Cache-Control\n",
+    "b": "Last-Modified\n",
+    "c": "If-None-Match\n",
+    "d": "Etag"
+  },
+  "answers": ["c"]
+}

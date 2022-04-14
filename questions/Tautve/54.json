@@ -1,0 +1,11 @@
+{
+  "title": "Which of these HTTP headers tell a reverse proxy cache like Varnish to cache the response it receives during 90 minutes or more?",
+  "choices": {
+    "a": "Cache-Control: private, maxage=90\n",
+    "b": "Cache-Control: public\n",
+    "c": "Cache-Control: private, maxage=5400\n",
+    "d": "Cache-Control: public, s-maxage=5400\n",
+    "e": "Cache-Control: public, s-maxage=90\n"
+  },
+  "answers": ["d"]
+}
